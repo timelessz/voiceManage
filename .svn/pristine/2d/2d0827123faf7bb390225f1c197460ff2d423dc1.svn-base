@@ -1,0 +1,242 @@
+<?php
+
+/**
+ * FilemanageController.class.php 
+ * 订单列表实现
+ * @author timelesszhuang
+ * @version salesmen 1.0
+ * @copyright 赵兴壮
+ * @package  Controller
+ * @todo 进入订单分类操作界面
+ * 2014年10月20 16:47
+ */
+
+namespace Admin\Controller;
+
+use Think\Controller;
+
+class AlllistController extends BaseController {
+
+    /**
+     * 主页跳转到主页  职员的列表
+     * @author 赵兴壮
+     * @version salesmen 1.0
+     * @access public
+     * @todo 跳转到列表主页进行操作
+     */
+    public function index() {
+        $this->display();
+    }
+
+    /**
+     * jsonTree
+     * 如果是部门经理的话只显示单个部门的信息   如果是 boss 的话 显示全部部门下面的职员信息
+     * @author 赵兴壮
+     * @version salesmen 1.0
+     * @access public
+     * @todo 编辑信息然后更新
+     * @return array data 根据id 查询到的数据
+     */
+    public function jsonTree() {
+        if (session('BOSS')) {
+            $m = M('Department');
+            $departmentdata = $m->where($condition)->getField('id,name');
+            $data = array();
+            foreach ($departmentdata as $key => $value) {
+                $userdata = $this->getdata_bydepartmentid($key);
+                if (!empty($userdata)) {
+                    foreach ($userdata as $k => $v) {
+                        $id = $k;
+                        $text = $v;
+                        $Data[] = array('id' => $id, 'text' => $text);
+                    }
+                } else {
+                    $Data[] = array('id' => 0, 'text' => '暂无下级职员!');
+                }
+                $data[] = array('id' => 'no', 'text' => $value, 'state' => 'open', 'children' => $Data);
+                #Data数据清空
+                $Data = array();
+            }
+            #其他部门信息
+            $department_id = 0;
+            $otheruserdata = $this->getdata_bydepartmentid($department_id);
+            if (!empty($otheruserdata)) {
+                foreach ($otheruserdata as $k => $value) {
+                    $id = $k;
+                    $text = $value;
+                    $Data[] = array('id' => $id, 'text' => $text);
+                }
+            } else {
+                $Data[] = array('id' => 0, 'text' => '暂无下级职员!');
+            }
+            #其他用户
+            $data[] = array('id' => 'no', 'text' => '其他部门', 'state' => 'open', 'children' => $Data);
+            exit(json_encode($data));
+        } else if (session('DEPARTMENT_ID')) {
+            //产品分类获取  分配到前台
+            $department_id = session('DEPARTMENT_ID');
+            $userdata = $this->getdata_bydepartmentid($department_id);
+            //要判断是不是该分组为空值
+            if (!empty($userdata)) {
+                foreach ($userdata as $k => $value) {
+                    $id = $k;
+                    $text = $value;
+                    $Data[] = array('id' => $id, 'text' => $text);
+                }
+            } else {
+                $Data[] = array('id' => 0, 'text' => '暂无下级职员!');
+            }
+            $data = array(array('id' => 'no', 'text' => '职员', 'state' => 'closed', 'children' => $Data));
+            exit(json_encode($data));
+        }
+    }
+
+    /**
+     * getdeuserdata
+     * 根据departmentid获取部门下的人
+     */
+    private function getdata_bydepartmentid($department_id) {
+        $m = M('UserInfo');
+        $condition['department_id'] = array('eq', $department_id);
+        $userdata = $m->where($condition)->getField('user_id,name');
+        return $userdata;
+    }
+
+    /**
+     * 跳转到相应的录音列表
+     */
+    public function userlist() {
+        $time = I('get.id');
+        $this->assign('id', $time);
+        $this->display();
+    }
+
+    /**
+     * 编辑信息页面
+     * @author 赵兴壮
+     * @version salesmen 1.0
+     * @access public
+     * @todo 操纵数据
+     * @return json data 获取用户信息根据 user_id
+     */
+    public function json() {
+        $user_id = I('get.id');
+        $m = M('UserVoice');
+        #分页信息 前台发的请求
+        $pageNumber = intval($_REQUEST['page']);
+        $pageRows = intval($_REQUEST['rows']);
+        #没有请求的话实现当前的页面是第一页
+        $pageNumber = (($pageNumber == null || $pageNumber == 0) ? 1 : $pageNumber);
+        #每一页显示的数量  默认是 10
+        $pageRows = (($pageRows == FALSE) ? 10 : $pageRows);
+        $firstRow = ($pageNumber - 1) * $pageRows;
+        $condition['user_id'] = array('eq', $user_id);
+        $payData = $m->where($condition)->order('id desc')->limit($firstRow . ',' . $pageRows)->select();
+        $count = $m->where($condition)->count();
+        $this->formatdata($payData);
+        if ($count != 0) {
+            $array['total'] = $count;
+            $array['rows'] = $payData;
+            echo json_encode($array);
+        } else {
+            $array['total'] = 0;
+            $array['rows'] = array();
+            echo json_encode($array);
+        }
+    }
+
+    /**
+     * formatdata
+     * 格式化数据
+     */
+    private function formatdata(&$data) {
+        foreach ($data as $k => $v) {
+            $data[$k]['size'] = $this->formatSizeData($v['size']);
+            $data[$k]['time']=date('Y年m月d日 H:m:s');
+             //$data[$k]['play']='<audio controls="true" style="margin:0px;"><source src="'.$v['path'].'" />你的浏览器不支持.</audio>';
+        }
+    }
+
+    /**
+     * 获取MP3时间长度
+     */
+    private function formatSizeData($size) {
+        $min = intval($size / 60);
+        $sec = $size % 60;
+        if (empty($min)) {
+            return $sec . '秒';
+        }
+        return $min . "分" . $sec . '秒';
+    }
+
+    /**
+     * 编辑每一条信息页面
+     * @author timelesszhuang <834916321@qq.com>
+     * @version salesmen 1.0
+     * @access public
+     * @todo 更新
+     * @return array data 更新数据状态
+     */
+    public function update() {
+        $data['id'] = I('post.id');
+        $data['address'] = I('post.address');
+        $data['contact'] = I('post.contact');
+        if (empty($data['contact'])) {
+            $this->formatReturnData('订单信息更新失败，联系人不能为空', '更新数据状态', $isclose, 'failed');
+            exit();
+        }
+        $data['tel'] = I('post.tel');
+        if (empty($data['tel'])) {
+            $this->formatReturnData('订单信息更新失败，联系电话不能为空', '更新数据状态', $isclose, 'failed');
+            exit();
+        }
+        $data['hosts'] = I('post.hosts');
+        if (empty($data['hosts'])) {
+            $this->formatReturnData('订单信息更新失败，域名不能为空', '更新数据状态', $isclose, 'failed');
+            exit();
+        }
+
+        $price1 = I('post.price1');
+        if (empty($price1) || !is_numeric($price1)) {
+            $this->formatReturnData('订单信息更新失败，邮箱价格不能为空,且必须为数字', '更新数据状态', $isclose, 'failed');
+            exit();
+        }
+        $data['price1'] = $price1;
+        $price2 = I('post.price2');
+        if (!is_numeric($price2)) {
+            $this->formatReturnData('订单信息更新失败，域名价格不能为空,且必须为数字', '更新数据状态', $isclose, 'failed');
+            exit();
+        } else {
+            $price2 = 0;
+            $data['price2'] = $price2;
+        }
+        #订单之前的数据
+        $for_paystatus = I("post.pay_for_status");
+        $pay_status = I('post.pay_status');
+        if ($for_paystatus == '10' && $pay_status['0'] == '20') {
+            $data['pay_amount'] = $price1 + $price2;
+            $data['pay_time'] = time();
+            $data['pay_status'] = '20';
+        } else if ($for_paystatus == '20' && $pay_status['0'] != '20') {
+            $this->formatReturnData('订单信息更新失败，已经成交的订单不能修改状态', '更新数据状态', $isclose, 'failed');
+            exit();
+        }
+        $num = I('post.num');
+        if (empty($num) || !is_numeric($num)) {
+            $this->formatReturnData('订单信息更新失败，邮箱开通人数不能为零,且必须为数字', '更新数据状态', $isclose, 'failed');
+            exit();
+        }
+        $data['num'] = $num;
+        $data['num'] = I('post.num');
+        $data['updatetime'] = time();
+        $payModel = M('Paydata');
+        $updateStatus = $payModel->save($data);
+        if ($updateStatus) {
+            $this->formatReturnData('订单信息更新成功', '更新订单信息状态', 'c', 'suc');
+        } else {
+            $this->formatReturnData('订单信息更新失败,您没有修改数据。', '更新订单信息状态', 'c', 'failed');
+        }
+        exit();
+    }
+
+}

@@ -1,0 +1,284 @@
+<form action="{:U('Home/Upfile/addoreditFileData')}" class="form_dogocms" method="post" enctype="multipart/form-data">
+    <input type="hidden" value="{$data.id}" name="id"/>
+    <input type="hidden" value="{$user_id}" name="user_id"/>
+    <input type="hidden" value="{$data.resumefile}" name="resumefile"/>
+    <input type="hidden" value="{$data.probationfile}" name="probationfile"/>
+    <input type="hidden" value="{$data.workcontractfile}" name="workcontractfile"/>
+    <input type="hidden" value="{$data.protocolfile}" name="protocolfile"/>
+    <div class="division">
+        <table>
+            <tbody>
+                <tr>
+                    <th>头像：</th>
+                    <td><input type="text" id="headphotoinput" name="headphoto" value="{$data.headphoto}" />
+                        <input type="button" id="headphotobtn" value="选择图片" />
+                        <span class="red">*</span>
+                        <br><span class="jh_fielddesc">(不可为空，大小有限制（95*95）。尺寸不符会出现变形 <br> 图片类型支持 jpg 、gif、png、jpeg')</span>
+                    </td>
+                    <td id="headphoto"  colspan="2">
+                        <?php
+                        if(!empty($data)) {
+                        if(!empty($data['headphoto'])){
+                        echo "<img  style='height:100px;width:100px;' src='".$data['headphoto']."'/>";
+                        }
+                        }
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>身份证复印件：</th>
+                    <td><input type="text" id="identifyinput" name="identifycardfile" value="{$data.identifycardfile}" />
+                        <input type="button" id="identifybtn" value="选择图片" />
+                        <span class="red">*</span>
+                        <br><span class="jh_fielddesc"> 仅支持图片类型</span>
+                    </td>
+                    <td id="identifyphoto" colspan="2">
+                        <?php
+                        if(!empty($data)) {
+                        if(!empty($data['identifycardfile'])){
+                        echo "<img  style='height:100px;width:100px;' src='".$data['identifycardfile']."'/>";
+                        }
+                        }
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>学历证书复印件：</th>
+                    <td><input type="text" id="certificateinput" name="certificatefile" value="{$data.certificatefile}" />
+                        <input type="button" id="certificatebtn" value="选择图片" />
+                        <span class="red">*</span>
+                        <br><span class="jh_fielddesc"> 仅支持图片类型</span>
+                    </td>
+                    <td id="certificatephoto" colspan="2">
+                        <?php
+                        if(!empty($data)) {
+                        if(!empty($data['certificatefile'])){
+                        echo "<img  style='height:100px;width:100px;' src='".$data['certificatefile']."'/>";
+                        }
+                        }
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>上传简历：</th>
+                    <td colspan="2"><input type="file" id='resumedoc' name="resumedoc"/>
+                        <input type="button" id="resumebtn" value="上传简历"/>
+                        <br><span class="jh_fielddesc"> word文件类型</span>
+                        <span  id='resumemsg' class="red">*</span></td>
+                    <?php
+                    if(!empty($data))
+                    {
+                    if(!empty($data['resumefile']))
+                    {
+                    echo '<br/><td><a href="'.$data['resumefile'].'" target="_blank">下载先前文件</a></td>';
+                    }
+                    }
+                    ?>
+
+                </tr>
+                <tr>
+                    <th>试用合同上传：</th>
+                    <td colspan="2"><input type="file" id='probationdoc' name="probationdoc"/>
+                        <input type="button" id="probationbtn" value="上传试用合同"/>
+                        <br><span class="jh_fielddesc"> word文件类型</span>
+                        <span  id='probationmsg' class="red">*</span>
+                    </td>
+                    <?php
+                    if(!empty($data))
+                    {
+                    if(!empty($data['probationfile']))
+                    {
+                    echo '<br/><td><a href="'.$data['probationfile'].'" target="_blank">下载先前文件</a></td>';
+                    }
+                    }
+                    ?>
+                </tr>
+                <tr>
+                    <th>竞争性行业保密协议上传：</th>
+                    <td colspan="2"><input type="file" id='protocoldoc' name="protocoldoc"/>
+                        <input type="button" id="protocolbtn" value="上传保密协议"/>
+                        <br><span class="jh_fielddesc"> word文件类型</span>
+                        <span  id='protocolmsg' class="red">*</span>
+                    </td>
+                    <?php
+                    if(!empty($data))
+                    {
+                    if(!empty($data['probationfile']))
+                    {
+                    echo '<br/><td><a href="'.$data['probationfile'].'" target="_blank">下载先前文件</a></td>';
+                    }
+                    }
+                    ?>
+                </tr>
+                <tr>
+                    <th>劳动合同上传：</th>
+                    <td colspan="2"><input type="file" id='workcontractdoc' name="workcontractdoc"/>
+                        <input type="button" id="workcontractbtn" value="上传劳动合同"/>
+                        <br><span class="jh_fielddesc"> word文件类型</span>
+                        <span  id='workcontractmsg' class="red">*</span>
+                    </td>
+                    <?php
+                    if(!empty($data))
+                    {
+                    if(!empty($data['workcontractfile']))
+                    {
+                    echo '<br/><td><a href="'.$data['workcontractfile'].'" target="_blank">下载先前文件</a></td>';
+                    }
+                    }
+                    ?>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</form>
+<script>
+    $(function () {
+        var imgeditor = KindEditor.editor({
+            allowFileManager: true,
+            uploadJson: '{:U("Home/Upfile/uploadImg")}',
+            fileManagerJson: '{:U("Home/Upfile/fileManagerJson")}'
+        });
+        KindEditor('#headphotobtn').click(function () {
+            imgeditor.loadPlugin('image', function () {
+                imgeditor.plugin.imageDialog({
+                    imageUrl: KindEditor('#headphotoinput').val(),
+                    clickFn: function (url, title, width, height, border, align) {
+                        KindEditor('#headphotoinput').val(url);
+                        var img = '<img  style="height:100px;width:100px;" src="' + url + '"/>';
+                        //覆盖元素
+                        $('#headphoto').html(img);
+                        imgeditor.hideDialog();
+                    }
+                });
+            });
+        });
+        KindEditor('#identifybtn').click(function () {
+            imgeditor.loadPlugin('image', function () {
+                imgeditor.plugin.imageDialog({
+                    imageUrl: KindEditor('#identifyinput').val(),
+                    clickFn: function (url, title, width, height, border, align) {
+                        KindEditor('#identifyinput').val(url);
+                        var img = '<img  style="height:150px;" src="' + url + '"/>';
+                        $('#identifyphoto').html(img);
+                        imgeditor.hideDialog();
+                    }
+                });
+            });
+        });
+
+        KindEditor('#certificatebtn').click(function () {
+            imgeditor.loadPlugin('image', function () {
+                imgeditor.plugin.imageDialog({
+                    imageUrl: KindEditor('#certificateinput').val(),
+                    clickFn: function (url, title, width, height, border, align) {
+                        KindEditor('#certificateinput').val(url);
+                        var img = '<img  style="height:150px;" src="' + url + '"/>';
+                        $('#certificatephoto').html(img);
+                        imgeditor.hideDialog();
+                    }
+                });
+            });
+        });
+
+        $('#resumebtn').click(function () {
+            $.ajaxFileUpload
+                    ({
+                        url: '__MODULE__/Upfile/uploadResume',
+                        secureuri: true,
+                        fileElementId: 'resumedoc',
+                        dataType: 'json',
+                        success: function (data) {
+                        },
+                        error: function (errordata) {
+                            var json = errordata.responseText;
+                            var data = $.parseJSON(json);
+                            if (data.status == "failed") {
+                                alert(data.message);
+                                $('input[name="resumefile"]').val();
+                            } else if (data.status == "suc") {
+                                $('input[name="resumefile"]').val(data.url);
+                                $('#resumemsg').html("上传简历成功");
+                            }
+                        }
+                    });
+            return false;
+        })
+
+
+        $('#probationbtn').click(function () {
+            $.ajaxFileUpload
+                    ({
+                        url: '__MODULE__/Upfile/uploadProbation',
+                        secureuri: true,
+                        fileElementId: 'probationdoc',
+                        dataType: 'json',
+                        success: function (data) {
+                        },
+                        error: function (errordata) {
+                            var json = errordata.responseText;
+                            var data = $.parseJSON(json);
+                            if (data.status == "failed") {
+                                alert(data.message);
+                                $('input[name="probationfile"]').val();
+                            } else if (data.status == "suc") {
+                                $('input[name="probationfile"]').val(data.url);
+                                $('#probationmsg').html("上传试用合同成功");
+                            }
+                        }
+                    });
+            return false;
+        })
+
+        $('#workcontractbtn').click(function () {
+            $.ajaxFileUpload
+                    ({
+                        url: '__MODULE__/Upfile/uploadWorkcontract',
+                        secureuri: true,
+                        fileElementId: 'workcontractdoc',
+                        dataType: 'json',
+                        success: function (data) {
+                        },
+                        error: function (errordata) {
+                            var json = errordata.responseText;
+                            var data = $.parseJSON(json);
+                            if (data.status == "failed") {
+                                alert(data.message);
+                                $('input[name="workcontractfile"]').val();
+                            } else if (data.status == "suc") {
+                                $('input[name="workcontractfile"]').val(data.url);
+                                $('#workcontractmsg').html("上传劳动合同成功");
+                            }
+                        }
+                    });
+            return false;
+        })
+
+        $('#protocolbtn').click(function () {
+            $.ajaxFileUpload
+                    ({
+                        url: '__MODULE__/Upfile/uploadProtocol',
+                        secureuri: true,
+                        fileElementId: 'protocoldoc',
+                        dataType: 'json',
+                        success: function (data) {
+                        },
+                        error: function (errordata) {
+                            var json = errordata.responseText;
+                            var data = $.parseJSON(json);
+                            if (data.status == "failed") {
+                                alert(data.message);
+                                $('input[name="protocolfile"]').val();
+                            } else if (data.status == "suc") {
+                                $('input[name="protocolfile"]').val(data.url);
+                                $('#protocolmsg').html("上传竞争性保密协议成功");
+                            }
+                        }
+                    });
+            return false;
+        })
+
+
+
+
+    });
+</script>

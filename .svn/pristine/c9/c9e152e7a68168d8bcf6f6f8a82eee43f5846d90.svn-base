@@ -1,0 +1,16 @@
+<foreach name='menu' item='list' key='key'>
+    <div title="{$list.label}" data-options="iconCls:'icon-mini-add'" style="padding:10px;">
+        <ul class="easyui-tree" data-options="animate:true">
+            <foreach name='list.items' item='slist' key='skey'>
+                <li data-options="state:'open'">
+                    <span>{$slist.label}</span>
+                    <ul>
+                        <foreach name='slist.items' item='sslist' key='sskey'>
+                            <li><a href="javascript:viod(0);" cmshref="{$sslist.link}" type="{$sslist.type}" rel="{$sslist.rel}">{$sslist.label}</a></li>
+                        </foreach>
+                    </ul>
+                </li>
+            </foreach>
+        </ul>
+    </div><!--waiceng-->
+</foreach>

@@ -1,0 +1,83 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.2
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: 2014-11-05 15:43:52
+-- 服务器版本： 5.5.40-0ubuntu0.14.04.1
+-- PHP Version: 5.4.11
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `voice`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_voice`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_voice` (
+`id` int(11) NOT NULL COMMENT '主页实现',
+  `user_id` int(10) NOT NULL COMMENT '用户表的主键',
+  `tel` varchar(22) CHARACTER SET utf8 NOT NULL COMMENT '电话号码',
+  `time` int(10) NOT NULL COMMENT '打电话时间',
+  `type` varchar(10) CHARACTER SET utf8 NOT NULL COMMENT '10 表示 打出来的电话20 表示打进来的电话',
+  `size` varchar(10) CHARACTER SET utf8 NOT NULL COMMENT '大小 时间 秒',
+  `addtime` int(10) NOT NULL COMMENT '添加时间',
+  `path` varchar(200) CHARACTER SET utf8 NOT NULL
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=33 ;
+
+--
+-- 转存表中的数据 `sm_user_voice`
+--
+
+INSERT INTO `sm_user_voice` (`id`, `user_id`, `tel`, `time`, `type`, `size`, `addtime`, `path`) VALUES
+(17, 0, '05342317618', 1414738036, '10', '43', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/336_05342317618_20141031-144716_4149.mp3'),
+(18, 0, '018615205626', 1414743649, '10', '163', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_018615205626_20141031-162049_4304.mp3'),
+(19, 0, '015034615239', 1414737579, '10', '151', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_015034615239_20141031-143939_4121.mp3'),
+(20, 0, '013573186518', 1414740156, '10', '101', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/316_013573186518_20141031-152236_4205.mp3'),
+(21, 0, '013581780229', 1414742563, '10', '229', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_013581780229_20141031-160243_4257.mp3'),
+(22, 0, '013589478850', 1414743250, '10', '10', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_013589478850_20141031-161410_4284.mp3'),
+(23, 0, '018615205631', 1414743463, '10', '103', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_018615205631_20141031-161743_4297.mp3'),
+(31, 0, '053188697707', 1414743410, '10', '0', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_053188697707_20141031-161650_4278.mp3'),
+(30, 0, '018615205631', 1414743594, '10', '20', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_018615205631_20141031-161954_4299.mp3'),
+(29, 0, '01056180365', 1414736441, '10', '26', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_01056180365_20141031-142041_4331.mp3'),
+(28, 0, '018106388018', 1414735702, '10', '53', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_018106388018_20141031-140822_4302.mp3'),
+(27, 0, '88110201', 1414744150, '10', '25', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/318_88110201_20141031-162910_4303.mp3'),
+(26, 0, '013902140505', 1414736926, '10', '46', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_013902140505_20141031-142846_4099.mp3'),
+(25, 0, '013668827520', 1414734432, '10', '320', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/316_013668827520_20141031-134712_4250.mp3'),
+(24, 0, '057188929292', 1414738695, '10', '71', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_057188929292_20141031-145815_4175.mp3'),
+(32, 0, '057188929292', 1414738593, '10', '25', 1415173350, '/usr/local/apache243/htdocs/voiceManage/voice/317_057188929292_20141031-145633_4165.mp3');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `sm_user_voice`
+--
+ALTER TABLE `sm_user_voice`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `sm_user_voice`
+--
+ALTER TABLE `sm_user_voice`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主页实现',AUTO_INCREMENT=33;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,0 +1,9 @@
+<?php
+
+$menuarray_DEPARTMENTMANAGE = array(
+    array('label' => '录音管理', 'type' => 'user_name', 'state' => 'open', 'items' => array(
+            array('label' => '我的录音', 'type' => 'member_name', 'items' => array(
+                    array('label' => '录音列表', 'type' => 'changepwd', 'link' => __MODULE__ . '/Filelist/index'),
+                )),
+        )),
+);

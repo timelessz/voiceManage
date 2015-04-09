@@ -1,0 +1,33 @@
+<table  id="datagrid_voice_list{$id}">
+
+</table>
+<script>
+    $(function () {
+        var classId = 'voice_list' + '{$id}';
+        var urljson = '{:U("Admin/Alllist/json",array("id"=>$id))}';
+        //var hrefaddall = '{:U("Admin/Filetraverse/getAllData")}';
+        //var hrefadd = '{:U("Admin/Filetraverse/getTodayData")}';
+        var hrefplay = '{:U("Admin/Filelist/play")}';
+        openDatagrid(classId, urljson);
+        $('#datagrid_' + classId).datagrid({
+            columns: [[
+                    {field: 'id', title: 'ID', width: 20, align: 'center'},
+                    {field: 'size', title: '长度', width: 40},
+                    {field: 'type', title: '类型', width: 40},
+                   // {field: 'play', title: '播放', width: 40},
+                    {field: 'tel', title: '客户电话', width: 40},
+                    {field: 'time', title: '拨打时间', width: 40},
+                    {
+                        field: 'action',
+                        title: '操作',
+                        width: 50,
+                        formatter: function (value, row, index) {
+                            return '<img class="btn_do" src="__PUBLIC__/Easyui/themes/icons/pencil.png" onclick="ding_edit(\'' + hrefplay+ '?id=' + row.id + '\',\'' + classId + '\')"  title="编辑"/>&nbsp;&nbsp;';
+                        }
+                    }//
+                ]],
+            toolbar: [
+            ]//toolbar
+        });
+    });
+</script>

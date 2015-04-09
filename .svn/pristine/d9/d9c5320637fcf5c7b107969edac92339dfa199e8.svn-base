@@ -1,0 +1,39 @@
+<?php
+
+namespace Admin\Controller;
+
+use Think\Controller;
+
+/**
+ * IndexController.class.php
+ * @author timelesszhuang
+ * @version salesmen 1.0
+ * @copyright 赵兴壮
+ * @package  Controller
+ * @todo IndexController判断用户登录状态之后进入主界面
+ * 2014年8月12 12:25
+ */
+class DatamanageController extends BaseController {
+
+    public function addvoicedata($alldata) {
+        $data=$alldata[0];
+        foreach ($data as $k => $v) {
+            #user_id
+            $adddata['user_id'] = $v[0];
+            #电话  去电或者是来电
+            $adddata['tel'] = $v[1];
+            #打电话的时间
+            $adddata['time'] = $v[2];
+            $adddata['type'] = $v[3];
+            $adddata['path'] = $v[4];
+            #mp3长度 单位秒
+            $adddata['size'] = $v[5];
+            $adddata['addtime'] = time();
+            $m = M('UserVoice');
+            print_r($adddata);
+            $m->add($adddata);
+            $adddata = array();
+        }
+    }
+
+}

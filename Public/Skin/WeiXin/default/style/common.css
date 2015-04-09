@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*公共*/
+*{margin:0; padding:0;}
+li{list-style:none;}
+img{border:none 0; display:block;}
+h1,h2,h3{font-weight:normal;}
+a{text-decoration:none;}
+a,p{font-size:13px;}
+h3 a{font-size:14px; color:#505050;}
+.dogo-contant-list{padding:0px;}
+.dogo-main-box{padding:10px;}
+.dogo-main-minbox{padding:5px; padding-top:0;}
+.dogo-page-g{background:#f8f8f8;}
+.dogo-page-b{background:#e9e9e9;}
+.dogo-page-c{background-image:-webkit-linear-gradient(to right, #f7f7f7,#fff,#f7f7f7); background-image:linear-gradient(to right, #f7f7f7,#fff,#f7f7f7);}
+
+.dogo-font-red{color:#ff6633;}
+
+/*超出隐藏*/
+.dogo-title-overhidden{overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;width:100%;}
+
+/*head*/
+.dogo-load-img{ width:100px;height:60px;margin:5px auto;background: url('../images/load.gif')  center no-repeat;display:none;}
+.dogo-header{background:#dcdcdc; border-bottom:1px solid #bebebe; height:44px;}
+.dogo-icon-menu{background:url(../images/icon_list.png) left center no-repeat; background-size:26px 27px;}
+.dogo-icon-search{background:url(../images/icon_search.png) left center no-repeat; background-size:26px 27px;}
+.dogo-icon-menu,.dogo-icon-search{margin-top:-4px;height:27px;}
+.dogo-header .dogo-icon-menu{left:0px; border-left-width:10px; margin-top:0px; margin-left:10px;padding-left:13px;padding-right:13px;}
+.dogo-header .ui-title{margin-left:0px; margin-right:0px; padding-left:42px; padding-right:42px; padding-top:0px;}
+.dogo-header .ui-title .ui-input-text{height:30px; background:#fff; border:1px solid #b4b4b4; margin-top:6px; margin-bottom:6px;   -moz-border-radius: 20px;      /* Gecko browsers */
+                                      -webkit-border-radius: 20px;   /* Webkit browsers */
+                                      border-radius:20px;            /* W3C syntax */}
+.dogo-header .ui-title .ui-input-text input{color:#646464; padding-left:12px; font-size:13px; min-height:2.6em;}
+.dogo-header .dogo-icon-search{right:10px; margin-top:0px;padding-left:13px;padding-right:13px;}
+
+/*商家列表*/
+.dogo-contant-list .dogo-grid-b .ui-block-a img{width:100%;}
+.dogo-contant-list .dogo-grid-b .ui-block-a{width:34%;}
+.dogo-contant-list .dogo-grid-b .ui-block-b{width:59%; margin-left:8px;}
+.dogo-contant-list .dogo-grid-b .ui-block-c{width:3%; padding-top:30px;}
+.dogo-contant-list .dogo-main-box h3{line-height:16px; margin-bottom:4px}
+.dogo-contant-list .dogo-grid-b .ui-block-b .description{color:#787878;}
+.dogo-contant-list .dogo-grid-b .ui-block-b p,.dogo-grid-b .ui-block-b p a{color:#646464; line-height:18px;}
+.dogo-contant-list .dogo-grid-b .ui-block-b .description{font-size:12px; margin-bottom:2px;}
+.dogo-contant-list .dogo-grid-b .ui-block-b .adress{background:url(../images/icon_position_biger.png) left 1px no-repeat; padding-left:16px; margin-top:2px; background-size:13px 13px;}
+.dogo-contant-list .dogo-grid-b .ui-block-b .tele{background:url(../images/icon_tele_biger.png) left 1px no-repeat; padding-left:16px; background-size:13px 13px;}
+.dogo-contant-list .dogo-main-box{background:#f8f8f8;}
+.dogo-contant-list .dogo-main-box:hover{background:#effdf2;}
+/*加载更多*/
+.ui-bt-more{font-size:12px;color:#969696;display:block;line-height:60px;width:100%;text-align:center;}
+
+.ui-bt-more:hover{background:#effdf2;}
+
+/*列表页推出框*/
+.ui-panel-inner{padding:0;}
+.change_merchant_title{line-height:44px; font-size:14px; color:#505050; background:#c7c7c7; border-bottom:1px solid #aaaaaa; text-align:center;}
+.dogo-menu-list li a{color:#646464; font-size:13px; line-height:44px; text-align:center; display:block;}
+.dogo-menu-list li{border-bottom:1px solid#dcdcdc;}
+.dogo-menu-list li:hover{background:#50c168;}
+.dogo-menu-list li a:hover{color:#fff;}
+.ui-panel{width:120px;}
+.ui-panel-animate.ui-panel-page-content-position-left{left:0; right:0;-webkit-transform: translate3d(120px,0,0);
+                                                      -moz-transform: translate3d(120px,0,0);
+                                                      transform: translate3d(120px,0,0);}
+.ui-panel-inner>.dogo-menu-list{ margin:0;}
+.ui-panel-position-left{background-color:#efefef;}
+.ui-panel-display-reveal{-webkit-box-shadow: inset -5px 0 5px rgba(0,0,0,.0);
+                         -moz-box-shadow: inset -5px 0 5px rgba(0,0,0,0);
+                         box-shadow: inset -5px 0 5px rgba(0,0,0,.0);}
+.ui-panel-page-content-open{box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.1);}
+
+
+
+/*商家详细页*/
+.dogo-contant-merchant{padding:0;}
+.ui-merchant-top-img img{width:100%;}
+.dogo-contant-merchant .dogo-merchant-title h2{font-size:15px; color:#ff6633;}
+.dogo-contant-merchant .dogo-merchant-title p{color:#646464; margin-top:6px; line-height:15px; font-size:12px;}
+.dogo-contant-merchant .dogo-merchant-title{padding-bottom:15px;}
+.dogo-contant-merchant .dogo-merchant-detailed .title{background:url(../images/icon_title_bg.png) left center no-repeat; line-height:30px; width:106px; text-align:center; color:#fff; font-size:12px; margin-left:10px; position:absolute; border-bottom:0px;
+}
+.dogo-contant-merchant .dogo-merchant-detailed .title-bg{border-bottom:1px solid #50c168; position:relative; height:15px;}
+.dogo-contant-merchant .dogo-merchant-detailed .halfday{background:url(../images/icon_heart.png) left 2px no-repeat; background-size:13px 13px;}
+.dogo-contant-merchant .dogo-merchant-detailed .time{background:url(../images/icon_clock.png) left 2px no-repeat; background-size:13px 13px;}
+.dogo-contant-merchant .dogo-merchant-detailed .adress{background:url(../images/icon_position_biger.png) left 2px no-repeat;  background-size:13px 13px;}
+.dogo-contant-merchant .dogo-merchant-detailed .tele{background:url(../images/icon_tele_biger.png) left 2px no-repeat; margin-bottom:4px;  background-size:13px 13px;}
+.dogo-contant-merchant .dogo-merchant-detailed p{color:#646464; padding-left:20px; font-size:13px; line-height:18px
+}
+.dogo-contant-merchant .dogo-merchant-detailed .dogo-main-box .first{font-size:14px; color:#505050; margin-top:10px; margin-bottom:7px;}
+.dogo-content-detail img{max-width:100%; margin-bottom:6px;  margin-top:10px; height:auto;}/*max-width*/
+.dogo-content-detail{color:#646464;font-size: 12px;}
+
+
+
+/*美食攻略*/
+.dogo-contant-raider h2{font-size:15px; color:#505050; padding-top:15px;}
+.dogo-contant-raider a{font-size:12px;color:#787878; margin-top:4px;}
+.dogo-contant-raider .dogo-main-minbox{background:#fff;}
+.dogo-contant-raider .title img{width:100%;}
+.dogo-contant-raider .title p{font-size:12px;color:#646464;ling-height:15px; padding-top:6px;}
+
+
+.dogo-contant-raider .main .item img{max-width:100%; margin-bottom:6px; height:auto;}/*max-width*/
+.dogo-contant-raider .main .item h3{font-size:14px; color:#ff6633; padding-bottom:5px;}
+.dogo-contant-raider .main .item p{font-size:12px;color:#646464;ling-height:15px;}
+.dogo-contant-raider .main .item{margin-top:16px;}
+
+/*品鉴会进行中*/
+
+.dogo-contant-merchant h1{font-size:15px; color:#505050;}
+.dogo-contant-tasting .dogo-merchant-title  p{font-size:13px; line-height:17px;}
+.dogo-contant-tasting .dogo-main-box{padding-bottom:5px;}
+.dogo-contant-tasting .dogo-main-box .conditions{padding-left:0;}
+.dogo-contant-tasting .dogo-main-box .conditions span{font-size:12px; color:#ff6633;}
+/*品鉴会底部条*/
+.dogo-footer{background:#fff;border:none 0;}
+.dogo-footer .call{background:#969696; width:25%; line-height:26px;}
+.dogo-footer .signup{background:#50cd97; width:75%; line-height:26px;}
+.dogo-footer a{color:#fff;}
+.ui-navbar li .ui-btn{font-size:15px;}
+.dogo-footer .ui-btn-icon-left{padding-left:0;}
+/*品鉴会弹出框*/
+.ui-popup-container{background:#2c2b29; width:280px;}
+.ui-popup-container .header{border:none 0; height:45px;}
+
+#popupDialog h1{ border-bottom:1px #0f643f solid; background:url(../images/icon_popup_box.png) center center no-repeat; margin-left:15px; width:250px; background-size:67px 22px;}
+.ui-popup-container h3{font-size:13px;color:#c8c8c8; margin-bottom:10px;}
+.ui-popup-container p input{ width:100%; background:#dadada; border:none 0; color:#505050;}
+.ui-popup-container .ui-content a{color:#c8c8c8; margin:0; padding:0; line-height:35px; width:120px; margin-top:20px; font-size:13px;}
+.ui-popup-container .grey{background:#7d7b77;}
+.ui-popup-container .green{background:#229c67;}
+.ui-popup-container .ui-content{padding:15px;}
+
+/*品鉴会往期回顾*/
+
+.dogo-main-tasted img{max-width:100%; margin-bottom:6px; height:auto;}/*max-width*/
+.dogo-main-tasted p{ padding-left:0; padding-bottom:4px;}
+.dogo-main-tasted{margin-top:12px;}
+/*会员卡*/
+.dogo-contant-card{padding:0; position:relative; height:560px;}
+.dogo-contant-card .dogo-card-wood{background:url(../images/card_bg_01.png); height:95px;}
+
+.dogo-contant-card .top{position:absolute; left:0px; top:0px; padding-top:15px;}
+.dogo-contant-card .top img{width:72%; margin:0 auto;}
+.dogo-contant-card .top .idui-card{ position:relative; z-index:1;}
+.dogo-contant-card .top .idui-card p{color:#dbe3d8;color: #E7E7E7;text-shadow: -1px -1px 0 rgba(240, 240, 240, 0.03),1px 1px 0 #5A5A5A,1px 1px 0 #D1D1D1;
+                                     position:absolute; right:17%; bottom:15px;}
+
+.dogo-contant-card .contant{height:400px; background-color: #FFF; z-index:2; width:100%; position:absolute;top:95px; display:block;background-image:-webkit-linear-gradient(to right, #f7f7f7,#fff,#f7f7f7); background-image:linear-gradient(to right, #f7f7f7,#fff,#f7f7f7);
+                            -moz-box-shadow: 0px 0px 10px rgba(0, -4, 6, 0.15);
+                            -webkit-box-shadow: 0px 0px 10px rgba(0, -4, 6, 0.15);
+                            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.15);}
+.dogo-contant-card .contant img{width:12%; margin:0 auto; margin-top:16px;}
+.dogo-contant-card .content{display:none;}
+.dogo-contant-card .ui-input-btn{ margin:0; padding:0; background:#50c168;font-size:14px;color:#fff;line-height:46px; width:100%;}
+.dogo-contant-card .contant p{color:#b4b4b4; margin-top:5px; margin-left:10px;}
+.dogo-contant-card .contant .frist{margin-top:40px;}
+.dogo-contant-card .contant p span{color:#f8cba6; font-size:11px;}
+.dogo-contant-card .ui-input-btn:hover{background:#45D172;}
+
+.dogo-contant-card .content h3{font-size:13px; color:#646464; margin-bottom:6px; padding-top:4px;}
+.dogo-contant-card .content .main p{color:#787878; font-size:12px; line-height:18px;}
+.dogo-contant-card .content .main{  margin-top:90px; padding:8px;}
+
+.dogo-contant-card .content .green-botton{ background:#50c168;   padding-left:10px;-moz-border-radius: 6px;      /* Gecko browsers */
+                                           -webkit-border-radius: 6px;   /* Webkit browsers */
+                                           border-radius:6px;            /* W3C syntax */ border:1px solid #c8c8c8;margin-bottom:30px;}
+.dogo-contant-card .content .green-botton p{background:url(../images/icon_write_w.png) left 13px no-repeat; padding-left:24px; padding-right:10px;}
+.dogo-contant-card .content .green-botton a{background:url(../images/icon_arrow_w.png) right center no-repeat; display:block; line-height:44px;color:#fff;} 
+.dogo-contant-card .content .green-botton:hover{background:#45D172;}
+
+.dogo-contant-card .content .problem a{font-size:11px; color:#969696; display:block; text-decoration:underline; text-align:center;}
+.dogo-contant-card .content .idui-logo{margin:0 auto; width:20%; margin-top:40px;}
+
+/*遇到问题弹出框*/
+#popupDialog h2{ border-bottom:1px #0f643f solid; margin-left:15px; width:250px; color:#c8c8c8; font-size:13px; line-height:22px;}
+.ui-popup-container .time{color:#b4b4b4;}
+.ui-popup-container .ui-content .grey-2{width:30%;}
+.ui-popup-container .ui-content .green-2{width:66%;}
+/*完善信息*/
+.dogo-information .title{border:1px solid #c8c8c8;-moz-border-radius: 6px;      /* Gecko browsers */
+                         -webkit-border-radius: 6px;   /* Webkit browsers */
+                         border-radius:6px;            /* W3C syntax */ padding-left:10px; margin-bottom:24px; margin-top:5px;}
+.dogo-information .title p{background:url(../images/icon_write_g.png) left center no-repeat;display:block; color:#646464; font-size:13px; line-height:40px; padding-left:24px;}
+.dogo-information .main{background:#f7f7f7;border:1px solid #dcdcdc;-moz-border-radius: 6px;      /* Gecko browsers */
+                        -webkit-border-radius: 6px;   /* Webkit browsers */
+                        border-radius:6px;            /* W3C syntax */ padding-bottom:70px;}
+
+.dogo-information .main .tele .ui-block-a{line-height:45px; color:#505050; width:25%;}
+.dogo-information .main .tele .ui-block-b{width:75%;}
+.dogo-information .main .tele input{height:30px; background:#fff; border:1px solid #b4b4b4; color:#505050;}
+.dogo-information .main .tele .ui-block-b .ui-input-text{ border:none 0;}
+.dogo-information .main .sex{margin-top:20px;}
+.dogo-information .main .sex div{ font-size:13px;}
+.dogo-information .main .sex .ui-block-a{color:#505050; line-height:30px; width:60%;}
+.dogo-information .main .sex .ui-block-b{ background:#56c46d; text-align:center; color:#fff; line-height:30px;cursor:pointer; width:20%;}
+.dogo-information .main .sex .ui-block-c{background:#d2d2d2; text-align:center; color:#646464;line-height:30px; cursor:pointer; width:20%;}
+.dogo-information .dogo-submit{width: 100%; background: #50c168; color: #fff; font-size: 15px; line-height: 44px; border: none 0; margin-top:30px;}
+.dogo-information .dogo-submit:hover{background:#45D172;}
+
+
+
+/*列表推出框*/
+.ui-listview>li>a.ui-btn{padding:0; text-align:center; border:none 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

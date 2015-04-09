@@ -1,0 +1,59 @@
+<?php
+
+namespace Admin\Controller;
+
+use Think\Controller;
+
+/**
+ * IndexController.class.php
+ * @author timelesszhuang
+ * @version salesmen 1.0
+ * @copyright 赵兴壮
+ * @package  Controller
+ * @todo IndexController判断用户登录状态之后进入主界面
+ * 2014年8月12 12:25
+ */
+class IndexController extends BaseController {
+
+    public function index() {
+        $id = session('USER_ID');
+        $condition['user_id'] = array('eq', $id);
+        $userRuleModel = M('UserRule');
+        $auData = $userRuleModel->where($condition)->find();
+        $au = unserialize($auData['rule_serarr']);
+        $menu = array();
+        foreach ($au as $k => $v) {
+            switch ($v) {
+                case'BOSS':
+                    session('BOSS', 1);
+                default :
+                    break;
+            }
+        }
+        $department_id = $this->getmanageid();
+        if (session('BOSS')) {
+            require_once(APP_PATH . "Admin/Conf/leftmenu_BOSS.php"); //引入默认菜单 ;
+            $menu = array_merge($menu, $menuarray_BOSS);
+        } else if (!empty($department_id)) {
+            require_once(APP_PATH . "Admin/Conf/leftmenu_DEPARTMENTMANAGE.php"); //引入默认菜单 ;
+            $menu = array_merge($menu, $menuarray_DEPARTMENTMANAGE);
+            session('DEPARTMENT_ID', $department_id);
+        }
+        require_once(APP_PATH . "Admin/Conf/leftmenu.php"); //引入默认菜单 ;
+        $menu = array_merge($menu, $menuarray);
+        $this->assign('menu', $menu);
+        $this->display();
+    }
+
+    /**
+     * 获取是否是管理员
+     */
+    private function getmanageid() {
+        $user_id = session('USER_ID');
+        $condition['manageid'] = array('eq', $user_id);
+        $m = M('Department');
+        $department_id = $m->where($condition)->getfield('id');
+        return $department_id;
+    }
+
+}

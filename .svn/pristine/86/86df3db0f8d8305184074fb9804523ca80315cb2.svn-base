@@ -1,0 +1,23 @@
+<table  id="datagrid_voice_list{$id}">
+
+</table>
+<script>
+    $(function () {
+        var classId = 'voice_list' + '{$id}';
+        var urljson = '{:U("Admin/Alllist/json",array("id"=>$id))}';
+        var hrefplay = '{:U("Admin/Filelist/play")}';
+        openDatagrid(classId, urljson);
+        $('#datagrid_' + classId).datagrid({
+            columns: [[
+                    {field: 'id', title: 'ID', width: 20, align: 'center'},
+                    {field: 'size', title: '长度', width:30},
+                    {field: 'type', title: '类型', width: 20},
+                    {field: 'play', title: '播放', width:100},
+                    {field: 'tel', title: '客户电话', width:40},
+                    {field: 'time', title: '拨打时间', width: 40},
+                ]],
+            toolbar: [
+            ]//toolbar
+        });
+    });
+</script>

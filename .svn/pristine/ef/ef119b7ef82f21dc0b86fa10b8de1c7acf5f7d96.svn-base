@@ -1,0 +1,78 @@
+
+/*login*/
+body#login{ background-color:#F5F6F8;}
+.login{ height:auto; overflow:hidden;}
+.logintop{height:160px;}
+.loginlogo{ width:245px;height:70px; margin:0 auto;}
+.loginlogo img{ width:245px;height:70px;}
+
+
+
+.loginfrom{ width:520px;height:275px; margin:0 auto;background:url(../images/login_bg.gif) 0 0 no-repeat;}
+.loginfrom_con{ padding:55px 0 0 120px;}
+.loginfrom_con .user{ height:35px; padding:10px 0 0 27px;}
+.loginfrom_con .pass{ height:35px; padding:0px 0 0 27px;}
+.loginfrom_con .yazhengma{ height:35px; padding:0px 0 0 27px;}
+.loginfrom_con .user input,.loginfrom_con .pass input{ width:197px;}
+.logininput{ height:22px; line-height:22px; border:0px;}
+
+.loginfrom_con .yazhengma input{ width:78px;}
+.yazhengma .yz_left{ width:85px; height:35px; display:inline; float:left;}
+.yazhengma .yz_right{ width:230px; height:35px; display:inline; float:left;}
+.yazhengma .yz_right a{ text-decoration:underline; color:#6DA25C;}
+.yazhengma .yz_right img{ height:30px;}
+.loginfromfoot{ height:35px; margin-top:10px; padding-left:50px;}
+.loginfromfoot_left{ width:330px; height:35px; float:left; display:inline; }
+.loginfromfoot_right{ width:90px; height:35px; float:left; display:inline; }
+.loginfromfoot_left h3{ height:35px; line-height:35px;}
+.loginfromfoot_left h3 a{ font-size:12px; color:#373E54;}
+.loginfromfoot_left h3 a:hover{color:#f00;}
+.login_sub{ width:72px; height:27px; margin-top:3px; font-size:14px; font-weight:bold;display:block;border:none; color:#373E54;background:url(../images/sub_bg.png) 0 0 no-repeat;}
+.logincopy{ height:35px; line-height:35px; font-size:12px; text-align:center;}
+
+
+/*loginad*/
+.loginad{ height:30px;}
+
+
+.button{ cursor:pointer;}
+
+
+
+/*框架区*/
+.admintop{}
+.adminlogo{}
+.admincon{}
+.adminmember{}
+/*division*/
+.division{
+    border-collapse:collapse;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #CCCCCC #BEC6CE #BEC6CE #CCCCCC;
+    border-style: solid;
+    border-width: 1px 2px 2px 1px;
+    line-height: 150%;
+    margin: 10px;
+    padding: 5px;
+    white-space: normal;
+}
+.division caption{ text-align:left; font-size:14px;}
+.division td{border-right:#E2E8EB solid 1px;border-bottom:#E2E8EB solid 1px;border-top:#fff solid 1px;margin-top:1px;vertical-align: top; padding:5px;width:650px}
+.division th {
+    background: none repeat scroll 0 0 #E5E5E5;
+    border-right: 1px solid #CCCCCC;
+	border-top:1px solid #fff;
+    font-size: 14px;
+    text-align: right;
+    white-space: nowrap;
+    width: 180px;
+	font-weight:normal;
+}
+.division .shopping_setting th {
+    width: 150px;
+}
+.division input[type="text"],.division input[type="password"]{width: 230px;height: 25px;}
+img.btn_do{cursor: pointer;}
+.txt_mark{color: #666;}
+
+.jh_fielddesc{float:left;display: inline-block;color: #999999}

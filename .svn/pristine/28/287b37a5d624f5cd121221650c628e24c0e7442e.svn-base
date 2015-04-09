@@ -1,0 +1,20 @@
+
+<div style="background:#fafafa;padding:5px;margin-right: 100px ;margin-top:2px;border:1px solid #ccc">    
+    <a href="#" class="easyui-menubutton" menu="" iconCls="icon-ok">您好：<?php echo session('NAME');?></a>
+    <a href="#" class="easyui-menubutton" menu="#email" iconCls="icon-ok">邮件：可以使用图片信息 </a>
+    <a href="#" class="easyui-menubutton" menu="#mm3" iconCls="icon-ok">退出登录</a>
+    <a href="#" class="easyui-menubutton" menu="#skin" iconCls="icon-edit">切换皮肤</a>
+</div>
+
+<div id="mm3" style="width:100px;">
+    <div iconCls="icon-undo"><a href="{:U('Home/Login/logout')}" class="">退出登录</a></div>
+</div>
+<div id="email" style="width:200px;">
+    <div iconCls="icon-undo"><a href="{:U('Home/Login/logout')}" class="">未读取邮件数量:（后台返回数据）</a></div>
+</div>
+<div id="skin" style="width:100px;">
+    <div onclick="changeTheme('default');">default</div>
+    <div onclick="changeTheme('bootstrap');">bootstrap</div>
+    <div onclick="changeTheme('gray');">gray</div>
+    <div onclick="changeTheme('metro');">metro</div>
+</div>

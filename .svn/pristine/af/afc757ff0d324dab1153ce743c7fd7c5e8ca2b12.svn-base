@@ -1,0 +1,114 @@
+<include file="Public:header" />
+</head>
+<body class="easyui-layout layout_index">
+    <script type="text/javascript">
+        $(function () {
+            $('.menulist li a').click(function () {
+                var classId = 'proListTab';
+                var subtitle = $(this).text();
+                var url = $(this).attr('cmshref');
+                var rel = $(this).attr('rel');
+                if (rel == 'dialog') {
+                    var type = $(this).attr('type');
+                    openDialog(type, url, subtitle);
+                    return false;
+                }
+                if (!$('#tabs_' + classId).tabs('exists', subtitle)) {
+                    $('#tabs_' + classId).tabs('add', {
+                        title: subtitle,
+                        content: subtitle,
+                        closable: true,
+                        href: url,
+                        tools: [{
+                                iconCls: 'icon-mini-refresh',
+                                handler: function () {
+                                    updateTab(classId, url, subtitle);
+                                }
+                            }]
+                    });
+                    return false;
+                } else {
+                    $('#tabs_' + classId).tabs('select', subtitle);
+                    return false;
+                }
+            });
+
+            $('.sider li a').click(function () {
+                var classId = 'index';
+                var subtitle = $(this).text();
+                var url = $(this).attr('cmshref');
+                var rel = $(this).attr('rel');
+                if (rel == 'dialog') {
+                    var type = $(this).attr('type');
+                    openDialog(type, url, subtitle);
+                    return false;
+                }
+                if (!$('#tabs_' + classId).tabs('exists', subtitle)) {
+                    $('#tabs_' + classId).tabs('add', {
+                        title: subtitle,
+                        content: subtitle,
+                        closable: true,
+                        href: url,
+                        tools: [{
+                                iconCls: 'icon-mini-refresh',
+                                handler: function () {
+                                    updateTab(classId, url, subtitle);
+                                }
+                            }]
+                    });
+                    return false;
+                } else {
+                    $('#tabs_' + classId).tabs('select', subtitle);
+                    return false;
+                }
+            });
+        });
+    </script>
+
+    <noscript>
+    <div style=" position:absolute; z-index:100000; height:246px;top:0px;left:0px; width:100%; background:white; text-align:center;">
+        <img src="images/noscript.gif" alt='抱歉，请开启脚本支持！' />
+    </div>
+    </noscript>
+    <div data-options="region:'north',border:false,split:true" style="height:60px;padding:2px">
+        <div class="admintop">
+            <div class="adminlogo fleft">
+                <!--<img src="__PUBLIC__/Home/images/logo.gif" width="" height="55px"/>-->
+            </div>
+            <div class="admincon fleft"></div>
+            <div class="adminmember fright">
+
+                <include file="top" />
+            </div>
+            <div class="clear"></div>
+        </div><!--admintop-->
+    </div>
+    <div data-options="region:'west',split:true,title:'导航菜单'" style="width:200px;">
+        <div class="easyui-accordion sider" data-options="fit:true,border:false">
+            <!--//左侧菜单导航-->
+            <include file="lefter" />
+            <!--//左侧菜单导航-->
+        </div><!--accordion-->
+
+    </div><!--west-->
+    <div data-options="region:'east',split:true,collapsed:true,title:'公司电话联系方式；'" style="width:220px;padding:10px;">
+        <include file="right" />
+    </div>
+    <div data-options="region:'south',split:false,border:false" style="height:50px;padding:10px; text-align:center;">版权：强比科技<br/>开发者：强比科技技术部</div>
+    <!--//主体内容部分-->
+    <div data-options="region:'center'" class="indexcenter" title="内容管理系统">
+        <div id="tabs_index" class="easyui-tabs"  fit="true" border="false">
+            <div title="{:L('home')}" style="overflow:hidden; " >
+                <include file="windows"/>
+            </div>
+            <div title="{:L('welcome')}" style="padding:10px; " data-options="closable:true">
+
+            </div>
+        </div>
+    </div><!--center-->
+    <!--//主体内容部分-->
+    <div id="dialog_cms" data-options="iconCls:'icon-save'">
+    </div>
+<include file="Public:footer" />
+</body>
+</html>

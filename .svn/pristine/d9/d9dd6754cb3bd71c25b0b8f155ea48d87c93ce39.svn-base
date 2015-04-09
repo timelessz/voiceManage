@@ -1,0 +1,639 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.2
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: 2014-11-05 11:00:42
+-- 服务器版本： 5.5.40-0ubuntu0.14.04.1
+-- PHP Version: 5.4.11
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `voice`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_department`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_department` (
+`id` int(11) NOT NULL COMMENT '主键自增',
+  `name` varchar(200) NOT NULL COMMENT '部门名称',
+  `num` varchar(100) NOT NULL COMMENT '部门编号',
+  `desc` varchar(400) NOT NULL COMMENT '该部门的描述信息',
+  `manageid` int(10) NOT NULL COMMENT '部门主管的user_id ',
+  `updatetime` int(10) NOT NULL COMMENT '更新时间'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='部门管理' AUTO_INCREMENT=7 ;
+
+--
+-- 转存表中的数据 `sm_department`
+--
+
+INSERT INTO `sm_department` (`id`, `name`, `num`, `desc`, `manageid`, `updatetime`) VALUES
+(4, '技术部', '001', '负责解决销售等的问题，提高销售质量。', 1, 1414138898),
+(5, '市场一部', '002', '市场部负责销售产品', 2, 1411980199),
+(6, '市场二部', '003', '市场二部', 2, 1412038677);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_interview_info`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_interview_info` (
+`id` int(10) NOT NULL COMMENT '主键',
+  `serializeinfo` varchar(3000) NOT NULL COMMENT '序列化的用户信息'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+
+--
+-- 转存表中的数据 `sm_interview_info`
+--
+
+INSERT INTO `sm_interview_info` (`id`, `serializeinfo`) VALUES
+(6, 'a:67:{s:10:"inposition";s:4:"1111";s:4:"name";s:9:"赵兴壮";s:6:"gender";s:3:"女";s:8:"birthday";s:10:"2014-10-27";s:6:"nation";s:6:"汉族";s:6:"height";s:0:"";s:9:"marstatus";s:6:"未婚";s:5:"phone";s:11:"18763129616";s:9:"household";s:3:"三";s:7:"address";s:0:"";s:11:"identifynum";s:0:"";s:7:"school1";s:0:"";s:13:"edustarttime1";s:10:"2014-10-27";s:11:"eduendtime1";s:10:"2014-10-27";s:6:"major1";s:0:"";s:7:"degree1";s:0:"";s:7:"school2";s:0:"";s:13:"edustarttime2";s:10:"2014-10-27";s:11:"eduendtime2";s:10:"2014-10-27";s:6:"major2";s:0:"";s:7:"degree2";s:0:"";s:8:"company1";s:0:"";s:14:"workstarttime1";s:10:"2014-10-27";s:12:"workendtime1";s:10:"2014-10-27";s:9:"position1";s:0:"";s:13:"absencereson1";s:0:"";s:5:"cash1";s:0:"";s:8:"company2";s:0:"";s:14:"workstarttime2";s:10:"2014-10-27";s:12:"workendtime2";s:10:"2014-10-27";s:9:"position2";s:0:"";s:13:"absencereson2";s:0:"";s:5:"cash2";s:0:"";s:8:"company3";s:0:"";s:14:"workstarttime3";s:10:"2014-10-27";s:12:"workendtime3";s:10:"2014-10-27";s:9:"position3";s:0:"";s:13:"absencereson3";s:0:"";s:5:"cash3";s:0:"";s:8:"company4";s:0:"";s:14:"workstarttime4";s:10:"2014-10-27";s:12:"workendtime4";s:10:"2014-10-27";s:9:"position4";s:0:"";s:13:"absencereson4";s:0:"";s:5:"cash4";s:0:"";s:8:"en_grade";s:0:"";s:14:"computer_grade";s:0:"";s:5:"train";s:0:"";s:8:"hopecash";s:0:"";s:10:"chengyuan1";s:0:"";s:13:"relationship1";s:0:"";s:10:"workplace1";s:0:"";s:6:"phone1";s:0:"";s:10:"chengyuan2";s:0:"";s:13:"relationship2";s:0:"";s:10:"workplace2";s:0:"";s:6:"phone2";s:0:"";s:10:"chengyuan3";s:0:"";s:13:"relationship3";s:0:"";s:10:"workplace3";s:0:"";s:6:"phone3";s:0:"";s:10:"chengyuan4";s:0:"";s:13:"relationship4";s:0:"";s:10:"workplace4";s:0:"";s:6:"phone4";s:0:"";s:6:"friend";s:0:"";s:7:"addtime";s:10:"1414401120";}');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_paydata`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_paydata` (
+`id` int(10) NOT NULL COMMENT '主键',
+  `type` varchar(100) DEFAULT NULL COMMENT '10表示网站\n20表示销售后台合同\n',
+  `comname` varchar(100) NOT NULL COMMENT '公司名称',
+  `contact` varchar(100) NOT NULL COMMENT '联系人\n',
+  `tel` varchar(100) DEFAULT NULL COMMENT '联系电话\n',
+  `hosts` varchar(100) NOT NULL COMMENT '域名',
+  `ordid` varchar(100) NOT NULL COMMENT '订单编号\n 以后的合同也是这个单号\n',
+  `user_id` int(10) NOT NULL COMMENT '业务员的id\n',
+  `pay_status` varchar(10) NOT NULL COMMENT '10表示还没有付款 20表示已经付款',
+  `pay_time` int(10) NOT NULL COMMENT '支付时间 时间戳\n',
+  `pay_amount` varchar(100) NOT NULL COMMENT '支付的总金额\n如果是网站发送来的请求的话。就是产品1的金额。如果是两个产品 邮箱跟域名的话   可以把产品2 价格写入\n',
+  `version` varchar(100) DEFAULT NULL COMMENT '产品1（邮箱） 的产品版本  旗舰版 标准版  等   \n',
+  `qixian` varchar(100) DEFAULT NULL COMMENT '时间便可  产品1的时间 单位年\n',
+  `qixian2` varchar(100) DEFAULT NULL COMMENT '产品2 开通时间  时间 年\n',
+  `price1` varchar(100) DEFAULT NULL COMMENT '产品1的价格',
+  `price2` varchar(100) DEFAULT NULL COMMENT '产品2的价格',
+  `num` varchar(100) DEFAULT NULL COMMENT '产品1(邮箱)开通人数',
+  `email` varchar(100) DEFAULT NULL COMMENT '用户的邮箱 用于发送合同使用',
+  `diban` varchar(100) DEFAULT NULL COMMENT '用户网站支付用户',
+  `address` varchar(100) DEFAULT NULL COMMENT '公司地址\n',
+  `updatetime` int(10) NOT NULL COMMENT '更新时间'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT AUTO_INCREMENT=95 ;
+
+--
+-- 转存表中的数据 `sm_paydata`
+--
+
+INSERT INTO `sm_paydata` (`id`, `type`, `comname`, `contact`, `tel`, `hosts`, `ordid`, `user_id`, `pay_status`, `pay_time`, `pay_amount`, `version`, `qixian`, `qixian2`, `price1`, `price2`, `num`, `email`, `diban`, `address`, `updatetime`) VALUES
+(79, '20', '强比科技邮箱公司', '赵兴壮', '187632139626', 'qiangbi.net', 'WQ20141020103758', 1, '10', 0, '', '网易企业邮箱商务版', '5', NULL, '145040', NULL, '200', '834916321@qq.com', NULL, '山东省济南市历城区洪家楼南路小区', 0),
+(80, '20', '强比科技邮箱公司', '赵兴壮', '187632139626', 'qiangbi.net', 'WQ20141020131059', 1, '10', 0, '', '网易企业邮箱商务版', '5', NULL, '14504', '0', '20', '834916321@qq.com', '1', '山东省济南市历城区洪家楼南路小区', 0),
+(81, '10', '强比科技邮箱公司', '赵兴壮', '187632139626', 'qiangbi.net', 'WQ20141020144412', 0, '10', 0, '', '网易企业邮箱商务版', '5', NULL, '145040', '0', '200', '834916321@qq.com', '1', '山东省济南市历城区洪家楼南路小区', 1413814280),
+(82, '10', '强比科技邮箱公司', '赵兴壮', '187632139626', 'qiangbi.net', 'WQ20141020165611', 0, '20', 1413813944, '4900', '网易企业邮箱商务版', '5', NULL, '4900', '0', '5', '834916321@qq.com', '1', '山东省济南市历城区洪家楼南路小区', 1413814399),
+(86, '20', 'fds', 'fds', 'fds', 'fsd', 'WQ20141021205021', 1, '10', 0, '', '网易企业邮箱商务版', NULL, '', '7500', '0', '50', 'xingzhuang@qiangbi.net', NULL, 'fds', 0),
+(87, '20', '赵兴壮', '赵兴壮', '13698612743', 'qiangbi.cn', 'WQ20141030101657', 1, '10', 0, '', '网易企业邮箱商务版', '三年', '空白', '7500', '空白', '50', 'xingzhuang@qiangbi.net', NULL, '山东省济南市历城区洪家楼南路小区', 0),
+(88, '20', '', '', '', '', 'WQ20141030112625', 1, '10', 0, '', '网易企业邮箱商务版', '三年', '空白', '', '空白', '50', 'xingzhuang@qiangbi.net', NULL, '', 0),
+(89, '20', '', '', '', '', 'WQ20141030112625', 1, '10', 0, '', '网易企业邮箱商务版', '三年', '空白', '', '空白', '50', 'xingzhuang@qiangbi.net', NULL, '', 0),
+(90, '20', '', '', '', '', 'WQ20141030112625', 1, '10', 0, '', '网易企业邮箱商务版', '三年', '空白', '', '空白', '50', 'xingzhuang@qiangbi.net', NULL, '', 0),
+(91, '20', '', '', '', '', 'WQ20141030112625', 1, '10', 0, '', '网易企业邮箱商务版', '三年', '空白', '', '空白', '50', 'xingzhuang@qiangbi.net', NULL, '', 0),
+(92, '20', '', '', '', '', 'WQ20141030112625', 1, '10', 0, '', '网易企业邮箱商务版', '三年', '空白', '', '空白', '50', 'xingzhuang@qiangbi.net', NULL, '', 0),
+(93, '20', '', '', '', '', 'WQ20141030112625', 1, '10', 0, '', '网易企业邮箱商务版', '三年', '空白', '', '空白', '50', 'xingzhuang@qiangbi.net', NULL, '', 0),
+(94, '20', '', '', '', '', 'WQ20141030112625', 1, '10', 0, '', '网易企业邮箱商务版', '三年', '空白', '', '空白', '50', 'xingzhuang@qiangbi.net', NULL, '', 0);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_rule`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_rule` (
+`id` int(11) NOT NULL COMMENT '主键自增',
+  `name` varchar(200) NOT NULL COMMENT '角色名称',
+  `desc` varchar(200) NOT NULL COMMENT '描述',
+  `en_name` varchar(200) NOT NULL COMMENT '英文名称 用于在数据库中序列化数组中的权限确定'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='用户权限用户角色表' AUTO_INCREMENT=9 ;
+
+--
+-- 转存表中的数据 `sm_rule`
+--
+
+INSERT INTO `sm_rule` (`id`, `name`, `desc`, `en_name`) VALUES
+(1, '人事权限', '人事权限可以修改用户信息   上传职员信息', 'HR'),
+(2, '销售权限', '销售权限可以生成PDF 使用银联接口', 'SALE'),
+(3, '客服权限', '客服权限 话术', 'CUSTOMERSERVICE'),
+(5, '管理员权限', '管理员权限部门角色管理 系统变量管理   话术管理  ', 'MANAGE'),
+(6, '新员工权限', '新人权限1入职后的各种使用说明2软件下载安装3新员工常见问题。', 'NEWEMPLOYEE'),
+(7, 'BOSS或者总经理权限  ', 'boss权限包括 总经理跟老板。  日报周报等的回复的时候可以分部门来执行回复。', 'BOSS'),
+(8, '市场推广', '市场推广    推广报表填写   有关推广的', 'EXTEND');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user` (
+`id` int(10) NOT NULL COMMENT '主键自增',
+  `login_name` varchar(200) NOT NULL COMMENT '登陆使用的用户名',
+  `login_pwd` varchar(40) NOT NULL COMMENT '登陆使用的密码',
+  `login_status` int(10) NOT NULL COMMENT '帐号登录状态10禁止20未禁止',
+  `updatetime` int(10) NOT NULL COMMENT '更新时间',
+  `addtime` int(10) NOT NULL COMMENT '添加时间   时间戳'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+
+--
+-- 转存表中的数据 `sm_user`
+--
+
+INSERT INTO `sm_user` (`id`, `login_name`, `login_pwd`, `login_status`, `updatetime`, `addtime`) VALUES
+(1, '123456', '0d11081f25c023608c9f4281cf01239b', 20, 1413880209, 1412681910),
+(9, 'haiyun', '91860ed7748e3360d2d80d029bb8916b', 20, 1414294101, 1412845290),
+(10, 'lijuan', 'd4f19603b43ec34a8a8cf0dfa1136193', 20, 1414305931, 1414056268),
+(11, 'yanan', 'c06904cca319addd22dffaf5a16d5627', 20, 1414252167, 1414056589),
+(12, 'liurui', 'f4e7183fd55dfecbd92fb07d3e07b8bc', 20, 1414305988, 1414305988);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_account`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_account` (
+`id` int(10) NOT NULL COMMENT '主键自增',
+  `telnum` varchar(30) NOT NULL COMMENT '公司分配的座机号码',
+  `mobilenum` varchar(20) NOT NULL COMMENT '公司分配的手机号码',
+  `qqnum` varchar(50) NOT NULL COMMENT '公司分配的qq号码',
+  `qqpwd` varchar(50) NOT NULL COMMENT '公司分配的qq密码',
+  `qqprotecttelnum` varchar(60) NOT NULL COMMENT '密保手机号码',
+  `pwdprotectproblem` varchar(200) NOT NULL COMMENT '密保问题   textarea方式实现',
+  `crmaccount` varchar(200) NOT NULL COMMENT 'crm帐号',
+  `crmpwd` varchar(200) NOT NULL COMMENT 'crm密码',
+  `emailaccount` varchar(200) NOT NULL COMMENT 'email帐号',
+  `emailpwd` varchar(200) NOT NULL COMMENT 'email密码',
+  `user_id` int(10) NOT NULL COMMENT '用户id',
+  `updatetime` int(10) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='分配给入职者的公司物品    座机号码  手机号码 显示器 工作证 笔记本 本子 杯子 qq号码密码 密保手机号码密保问题 crm帐号密码 企业邮箱 帐号密码' AUTO_INCREMENT=3 ;
+
+--
+-- 转存表中的数据 `sm_user_account`
+--
+
+INSERT INTO `sm_user_account` (`id`, `telnum`, `mobilenum`, `qqnum`, `qqpwd`, `qqprotecttelnum`, `pwdprotectproblem`, `crmaccount`, `crmpwd`, `emailaccount`, `emailpwd`, `user_id`, `updatetime`) VALUES
+(1, '0538-8898056-011', '18763139626', '834916321', 'qiangbi123', '18763139627', '1爸爸妈妈姓名\r\n2公司\r\n3test', 'xingzhuang', 'xingzhuang', 'xingzhuang@qiangbi.net', 'qiangbi123', 1, 1414464927),
+(2, '0538-8898056-011', '18763139626', '12345', 'qiangbi123', '18763139626', '1test', 'xingzhuang', 'xingzhuang', 'xingzhuang@qiangbi.net', 'xingzhuang', 9, 1413188834);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_borrow`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_borrow` (
+`id` int(10) NOT NULL COMMENT '用户主键自增',
+  `user_id` int(10) NOT NULL COMMENT '用户id',
+  `thing` varchar(200) NOT NULL COMMENT '借的东西',
+  `borrowtime` int(10) NOT NULL COMMENT '借的时间',
+  `returntime` int(10) NOT NULL COMMENT '归还时间',
+  `updatetime` int(10) NOT NULL COMMENT '更新时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='物品借用' AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_comthing`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_comthing` (
+  `id` int(10) NOT NULL,
+  `user_id` int(10) NOT NULL,
+  `cup` varchar(100) DEFAULT NULL,
+  `workcard` varchar(100) DEFAULT NULL,
+  `computer` varchar(100) DEFAULT NULL COMMENT '公司分配的物品信息'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_daily`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_daily` (
+`id` int(10) NOT NULL COMMENT '主键',
+  `user_id` int(10) NOT NULL COMMENT '用户表的id 表示是谁的日报月报',
+  `date` int(10) NOT NULL COMMENT '时间戳  日报定位时间当天时间  周报是周三中午十二点  月报定位到15号',
+  `type` varchar(100) NOT NULL COMMENT '10表示日报 20表示周报  30表示月报',
+  `text` varchar(2000) NOT NULL COMMENT '内容',
+  `status` varchar(10) NOT NULL COMMENT '标志日报周报月报状态   20表示 赞存  20 表示提交了',
+  `updatetime` int(10) NOT NULL COMMENT '日报更新时间'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='用户日报周报月报表' AUTO_INCREMENT=51 ;
+
+--
+-- 转存表中的数据 `sm_user_daily`
+--
+
+INSERT INTO `sm_user_daily` (`id`, `user_id`, `date`, `type`, `text`, `status`, `updatetime`) VALUES
+(50, 1, 1414641600, '10', '<div align="left">\r\n	dsadsadasdsadasdsadsadasdsadsadsadsa\r\n</div>', '20', 1414672811);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_daily_reply`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_daily_reply` (
+`id` int(10) NOT NULL COMMENT '主键',
+  `daily_id` int(10) NOT NULL COMMENT '日报或者周报的id',
+  `manage_id` int(10) NOT NULL COMMENT '对应的是用户表主键',
+  `replytime` int(10) NOT NULL COMMENT '时间戳   回复时间',
+  `text` varchar(2000) NOT NULL COMMENT '回复的内容'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='用户日报周报月报回复表' AUTO_INCREMENT=22 ;
+
+--
+-- 转存表中的数据 `sm_user_daily_reply`
+--
+
+INSERT INTO `sm_user_daily_reply` (`id`, `daily_id`, `manage_id`, `replytime`, `text`) VALUES
+(21, 50, 1, 1414672855, 'dasdasdsa');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_departure`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_departure` (
+`id` int(10) NOT NULL COMMENT '用户离职表单',
+  `user_id` int(10) NOT NULL COMMENT '用户id',
+  `department` varchar(10) NOT NULL COMMENT '离职之前的部门',
+  `departuretime` int(10) NOT NULL COMMENT '离职时间',
+  `departurereason` varchar(200) NOT NULL COMMENT '离职原因',
+  `duty` varchar(200) NOT NULL COMMENT '离职之前的职责',
+  `position` varchar(200) NOT NULL COMMENT '离职之前的职务'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='职员离职表单' AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_duty`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_duty` (
+`id` int(11) NOT NULL COMMENT '主键自增',
+  `responsibility` varchar(200) NOT NULL COMMENT '用户职责',
+  `performance` varchar(200) NOT NULL COMMENT '绩效考核',
+  `updatetime` int(10) NOT NULL COMMENT '更新时间',
+  `user_id` int(11) NOT NULL COMMENT '用户id'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='职员绩效考核 职责明细' AUTO_INCREMENT=7 ;
+
+--
+-- 转存表中的数据 `sm_user_duty`
+--
+
+INSERT INTO `sm_user_duty` (`id`, `responsibility`, `performance`, `updatetime`, `user_id`) VALUES
+(5, '赵兴壮职员职责', '赵兴壮绩效考核', 1413292042, 1),
+(6, '徐海云', '徐海云', 0, 9);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_info`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_info` (
+`id` int(10) NOT NULL COMMENT '主键',
+  `user_id` int(10) NOT NULL COMMENT '用户id',
+  `name` varchar(200) NOT NULL COMMENT '姓名',
+  `gender` varchar(20) NOT NULL COMMENT '性别',
+  `nation` varchar(100) NOT NULL COMMENT '民族',
+  `birthday` int(10) NOT NULL COMMENT '生日',
+  `department_id` int(10) NOT NULL COMMENT '部门id',
+  `education` int(10) NOT NULL COMMENT '10 研究生以上 20 研究生 30 本科生 40 大专 50 中专 60 中专以下',
+  `pri_mobilenum` varchar(50) NOT NULL COMMENT '私人手机号码',
+  `pri_qqnum` varchar(50) NOT NULL COMMENT '私人qq号码',
+  `pri_email` varchar(100) NOT NULL COMMENT '私人email',
+  `school` varchar(100) NOT NULL COMMENT '毕业院校',
+  `identifynum` varchar(60) NOT NULL COMMENT '身份证号码',
+  `updatetime` int(10) NOT NULL COMMENT '更新时间',
+  `desc` varchar(400) NOT NULL COMMENT '描述'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='用户基本信息  姓名性别部门私人手机号码私人qq号码私人邮箱 身份证号 学历 毕业院校 ' AUTO_INCREMENT=12 ;
+
+--
+-- 转存表中的数据 `sm_user_info`
+--
+
+INSERT INTO `sm_user_info` (`id`, `user_id`, `name`, `gender`, `nation`, `birthday`, `department_id`, `education`, `pri_mobilenum`, `pri_qqnum`, `pri_email`, `school`, `identifynum`, `updatetime`, `desc`) VALUES
+(2, 1, '赵兴壮', '女', '汉族', 2217600, 4, 20, '18763139627', '834916321', '834916322@qq.com', '哈尔滨理工', '370911198909201677', 1413880209, 'zhaoxingzhuang'),
+(8, 9, '徐海云 ', '女', '汉族 ', 1412784000, 4, 20, '18763139626 	', '834916321', '834916321@qq.com', '哈理工 ', '370911198909201671 	', 1414294101, '海云'),
+(9, 10, '张丽娟', '女', '汉族', 1413993600, 5, 30, '18763139626', '834916321', '834916321@qq.com', '哈工大', '370911198909201671', 1414305931, ''),
+(10, 11, '郝雅男', '女', '汉族', 1413993600, 4, 30, '18763139626', '834916321', '834916321@qq.com', '哈工大', '370911198909201671', 1414252168, ''),
+(11, 12, '刘锐', '男', '汉族', 1414252800, 0, 30, '18763139626', '834916321', '834916321@qq.com', '哈工大', '370911198909201671', 1414305989, '');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_rule`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_rule` (
+`id` int(10) NOT NULL COMMENT '主键自增',
+  `user_id` int(10) NOT NULL COMMENT '用户主键id',
+  `rule_serarr` varchar(300) NOT NULL COMMENT '序列化的数组信息',
+  `updatetime` int(10) DEFAULT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='用户与角色关系表  用户主键与系列化的角色数组 en_name=>0或者en_name=>1' AUTO_INCREMENT=6 ;
+
+--
+-- 转存表中的数据 `sm_user_rule`
+--
+
+INSERT INTO `sm_user_rule` (`id`, `user_id`, `rule_serarr`, `updatetime`) VALUES
+(1, 1, 'a:7:{i:0;s:2:"HR";i:1;s:4:"SALE";i:2;s:15:"CUSTOMERSERVICE";i:3;s:6:"MANAGE";i:4;s:11:"NEWEMPLOYEE";i:5;s:4:"BOSS";i:6;s:6:"EXTEND";}', 1414658887),
+(2, 9, 'a:6:{i:0;s:2:"HR";i:1;s:4:"SALE";i:2;s:15:"CUSTOMERSERVICE";i:3;s:6:"MANAGE";i:4;s:11:"NEWEMPLOYEE";i:5;s:4:"BOSS";}', 1414294067),
+(3, 11, 'a:1:{i:0;s:4:"SALE";}', 1414137698),
+(4, 10, 'a:5:{i:0;s:2:"HR";i:1;s:4:"SALE";i:2;s:15:"CUSTOMERSERVICE";i:3;s:6:"MANAGE";i:4;s:11:"NEWEMPLOYEE";}', 1414293919),
+(5, 12, 'a:6:{i:0;s:2:"HR";i:1;s:4:"SALE";i:2;s:15:"CUSTOMERSERVICE";i:3;s:6:"MANAGE";i:4;s:11:"NEWEMPLOYEE";i:5;s:4:"BOSS";}', 1414305999);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_seal`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_seal` (
+`id` int(10) NOT NULL,
+  `user_id` int(10) NOT NULL COMMENT '用户表的主键',
+  `sealstatus` varchar(10) NOT NULL COMMENT '申领公章类型 10公司印章 20 财务专用章 30 合同专用章 40 法人印章',
+  `num` varchar(10) NOT NULL COMMENT '使用次数',
+  `usetype` varchar(10) NOT NULL COMMENT '10 表示 公司内部使用 20表示 带出公司使用',
+  `type` varchar(10) NOT NULL COMMENT '表示是济南 10  北京 20',
+  `starttime` int(10) NOT NULL COMMENT '使用开始时间',
+  `stoptime` int(10) NOT NULL COMMENT '使用结束时间',
+  `applytime` int(10) NOT NULL COMMENT '申领时间',
+  `allowtime` int(10) NOT NULL COMMENT '允许使用时间',
+  `manage_id` int(10) NOT NULL COMMENT '允许使用的用户id',
+  `memo` varchar(2000) NOT NULL,
+  `status` varchar(10) NOT NULL COMMENT '是否批准 10没有批准 20已经批准  '
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='公章申领表' AUTO_INCREMENT=6 ;
+
+--
+-- 转存表中的数据 `sm_user_seal`
+--
+
+INSERT INTO `sm_user_seal` (`id`, `user_id`, `sealstatus`, `num`, `usetype`, `type`, `starttime`, `stoptime`, `applytime`, `allowtime`, `manage_id`, `memo`, `status`) VALUES
+(3, 1, '10', '1', '10', '10', 1414512000, 1414512000, 0, 1414576016, 1, 'qq', '20'),
+(4, 1, '10', '1', '10', '20', 1414512000, 1414512000, 0, 1414576002, 1, 'dsadsa', '20'),
+(5, 1, '10', '1', '10', '10', 1414512000, 1414512000, 1414570580, 1414576002, 1, '赵兴壮测试申领', '20');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_tomplan`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_tomplan` (
+`id` int(10) NOT NULL,
+  `user_id` int(10) NOT NULL COMMENT '用户表的id 表示是谁的日报月报明日计划',
+  `date` int(10) NOT NULL COMMENT '时间戳  日报定位时间当天时间  周报是周三中午十二点  月报定位到上个月昨日上周',
+  `type` varchar(10) NOT NULL COMMENT '10表示周报 20表示周报 30表示月报',
+  `text` varchar(2000) NOT NULL COMMENT '内容',
+  `daily_id` int(10) NOT NULL,
+  `updatetime` int(10) NOT NULL COMMENT '更新时间'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='明日下周下月计划' AUTO_INCREMENT=49 ;
+
+--
+-- 转存表中的数据 `sm_user_tomplan`
+--
+
+INSERT INTO `sm_user_tomplan` (`id`, `user_id`, `date`, `type`, `text`, `daily_id`, `updatetime`) VALUES
+(48, 1, 1414641600, '10', '<div align="left">\r\n	dsadasdasdsadsadasdsadsdsadsadsa\r\n</div>', 50, 1414672811);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `sm_user_upfileinfo`
+--
+
+CREATE TABLE IF NOT EXISTS `sm_user_upfileinfo` (
+`id` int(10) NOT NULL COMMENT '主键自增',
+  `user_id` int(10) NOT NULL COMMENT '用户id',
+  `resumefile` varchar(200) NOT NULL COMMENT '上传之后的简历文件名',
+  `identifycardfile` varchar(200) NOT NULL COMMENT '上传身份证文件名称',
+  `probationfile` varchar(200) NOT NULL COMMENT '试用合同',
+  `protocolfile` varchar(200) NOT NULL COMMENT '保密协议竞争性行业',
+  `headphoto` varchar(200) NOT NULL COMMENT '个人图片',
+  `certificatefile` varchar(200) NOT NULL COMMENT '学历证书',
+  `workcontractfile` varchar(200) NOT NULL COMMENT '劳动合同文件',
+  `updatetime` int(10) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='用户上传文件信息   简历  身份证  合同 竞争性行业禁止保密协议   个人照片  学位照片  学历照片  ' AUTO_INCREMENT=5 ;
+
+--
+-- 转存表中的数据 `sm_user_upfileinfo`
+--
+
+INSERT INTO `sm_user_upfileinfo` (`id`, `user_id`, `resumefile`, `identifycardfile`, `probationfile`, `protocolfile`, `headphoto`, `certificatefile`, `workcontractfile`, `updatetime`) VALUES
+(3, 1, '/salesmen1/Public/Uploads/Resumes/20141012/543a2bd83049d.doc', '/salesmen1/Public/Uploads/Images/20141012/543a257858261.jpg', '/salesmen1/Public/Uploads/Probation/20141012/543a2beeb0f3c.doc', '', '/salesmen1/Public/Uploads/Images/20141012/543a2572d9221.jpg', '/salesmen1/Public/Uploads/Images/20141012/543a25a4da0cf.jpg', '/salesmen1/Public/Uploads/Workcontract/20141012/543a2e699352f.doc', 1413099808),
+(4, 9, '/salesmen1/Public/Uploads/Resumes/20141013/543b6f7938747.doc', '', '', '', '', '', '', 1413624991);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `sm_department`
+--
+ALTER TABLE `sm_department`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_interview_info`
+--
+ALTER TABLE `sm_interview_info`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_paydata`
+--
+ALTER TABLE `sm_paydata`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_rule`
+--
+ALTER TABLE `sm_rule`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user`
+--
+ALTER TABLE `sm_user`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_account`
+--
+ALTER TABLE `sm_user_account`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_borrow`
+--
+ALTER TABLE `sm_user_borrow`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_comthing`
+--
+ALTER TABLE `sm_user_comthing`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_daily`
+--
+ALTER TABLE `sm_user_daily`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_daily_reply`
+--
+ALTER TABLE `sm_user_daily_reply`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_departure`
+--
+ALTER TABLE `sm_user_departure`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_duty`
+--
+ALTER TABLE `sm_user_duty`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_info`
+--
+ALTER TABLE `sm_user_info`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_rule`
+--
+ALTER TABLE `sm_user_rule`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_seal`
+--
+ALTER TABLE `sm_user_seal`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_tomplan`
+--
+ALTER TABLE `sm_user_tomplan`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sm_user_upfileinfo`
+--
+ALTER TABLE `sm_user_upfileinfo`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `sm_department`
+--
+ALTER TABLE `sm_department`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键自增',AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `sm_interview_info`
+--
+ALTER TABLE `sm_interview_info`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键',AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `sm_paydata`
+--
+ALTER TABLE `sm_paydata`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键',AUTO_INCREMENT=95;
+--
+-- AUTO_INCREMENT for table `sm_rule`
+--
+ALTER TABLE `sm_rule`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键自增',AUTO_INCREMENT=9;
+--
+-- AUTO_INCREMENT for table `sm_user`
+--
+ALTER TABLE `sm_user`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键自增',AUTO_INCREMENT=13;
+--
+-- AUTO_INCREMENT for table `sm_user_account`
+--
+ALTER TABLE `sm_user_account`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键自增',AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `sm_user_borrow`
+--
+ALTER TABLE `sm_user_borrow`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '用户主键自增';
+--
+-- AUTO_INCREMENT for table `sm_user_daily`
+--
+ALTER TABLE `sm_user_daily`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键',AUTO_INCREMENT=51;
+--
+-- AUTO_INCREMENT for table `sm_user_daily_reply`
+--
+ALTER TABLE `sm_user_daily_reply`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键',AUTO_INCREMENT=22;
+--
+-- AUTO_INCREMENT for table `sm_user_departure`
+--
+ALTER TABLE `sm_user_departure`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '用户离职表单';
+--
+-- AUTO_INCREMENT for table `sm_user_duty`
+--
+ALTER TABLE `sm_user_duty`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键自增',AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `sm_user_info`
+--
+ALTER TABLE `sm_user_info`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键',AUTO_INCREMENT=12;
+--
+-- AUTO_INCREMENT for table `sm_user_rule`
+--
+ALTER TABLE `sm_user_rule`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键自增',AUTO_INCREMENT=6;
+--
+-- AUTO_INCREMENT for table `sm_user_seal`
+--
+ALTER TABLE `sm_user_seal`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+--
+-- AUTO_INCREMENT for table `sm_user_tomplan`
+--
+ALTER TABLE `sm_user_tomplan`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=49;
+--
+-- AUTO_INCREMENT for table `sm_user_upfileinfo`
+--
+ALTER TABLE `sm_user_upfileinfo`
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '主键自增',AUTO_INCREMENT=5;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
