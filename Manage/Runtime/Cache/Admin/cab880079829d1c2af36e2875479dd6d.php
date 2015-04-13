@@ -107,7 +107,7 @@
 
                 
 <div style="background:#fafafa;padding:5px;margin-right: 100px ;margin-top:2px;border:1px solid #ccc">    
-    <a href="#" class="easyui-menubutton" menu="" iconCls="icon-ok">您好：<?php echo session('NAME');?></a>
+    <a href="#" class="easyui-menubutton" menu="" iconCls="icon-ok">您好：<?php echo session('USER_NAME');?></a>
     <a href="#" class="easyui-menubutton" menu="#mm3" iconCls="icon-ok">退出登录</a>
     <a href="#" class="easyui-menubutton" menu="#skin" iconCls="icon-edit">切换皮肤</a>
 </div>

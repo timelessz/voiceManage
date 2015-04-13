@@ -1,7 +1,7 @@
 <?php
 
 /**
- * LoginController.class.php 
+ * LoginController.class.php
  * @author timelesszhuang
  * @version voicemanage
  * @copyright 赵兴壮
@@ -15,7 +15,8 @@ namespace Admin\Controller;
 use Think\Controller;
 
 class LoginController extends Controller {
-    /*
+
+    /**
      * index
      * 进入登录页面
      * @access public
@@ -23,12 +24,11 @@ class LoginController extends Controller {
      * @author timelesszhuang
      * @todo 登录验证用户密码状态
      */
-
     public function index() {
         $this->display();
     }
 
-    /*
+    /**
      * dologin
      * 进入登录页面   该操作实现远程salesmen登录实现
      * @access public
@@ -36,7 +36,6 @@ class LoginController extends Controller {
      * @author timelesszhuang
      * @todo 登录验证
      */
-
     public function dologin() {
         $ver_code = I('post.vd_code');
         $verify_status = $this->check_verify($ver_code);
@@ -49,20 +48,29 @@ class LoginController extends Controller {
         $password = I('post.user_password');
         if (!empty($user_name) && !empty($password)) {
             $password = md5(md5($user_name) . sha1($password));
-            //发送远程请求的url
-            //'CURL_PATH' => 'salesmen.cn/index.php/Api/',
             $path = C('CURL_PATH');
-            $path.='Voicemanage/checkLogin';
+            $path.='VoicemanageApichecklogin/checkLogin';
             $loginParam[0] = $path;
             $loginParam[1]['login_name'] = $user_name;
             $loginParam[1]['login_pwd'] = $password;
-            $checkResult = R('Home/Curl/sendcheckLoginData', $loginParam);
-            $status = $checkResult['status'];
+            $check_result = R('Admin/Curl/sendcheckLoginData', $loginParam);
+            //返回数值
+            //id表示用户的user_id
+            //data 为二位的数组   data['name']=USER_NAME   data['is_boss']   表示是不是主管  10表示是  20 表示不是   data['department_id']  0 表示不知主管  不为零表示部门主管  
+            $status = $check_result['status'];
+            $data = $check_result['data'];
             if ($status == '20') {
                 //对查询出的结果进行判断
                 session('IS_LOGIN', 'TRUE');
-                session('USER_ID', $checkResult['id']);
-                session('USER_NAME', $checkResult['data']['name']);
+                session('USER_ID', $check_result['id']);
+                session('USER_NAME', $data['name']);
+                if ($data['is_boss'] == '10') {
+                    session('BOSS', 1);
+                } else {
+                    if (!$data['department_id']) {
+                        session('DEPARTMENT_ID', $department_id);
+                    }
+                }
                 $this->success('登陆成功！', '../Index/index');
             } else if ($status != "") {
                 if ($status == '10') {
@@ -78,48 +86,9 @@ class LoginController extends Controller {
         } else {
             $this->error('用户名密码不为空！');
         }
-
-//        $ver_code = I('post.vd_code');
-//        $verify_status = $this->check_verify($ver_code);
-//        if (!$verify_status) {
-//            $this->error('验证码输入错误或已过期！');
-//            exit;
-//        }
-//        $user_name = I('post.user_name');
-//        $condition['login_name'] = array('eq', $user_name);
-//        $password = I('post.user_password');
-//        if (!empty($user_name) && !empty($password)) {//依据用户名查询      
-//            $login = M('User');
-//            $rs = $login->field('id,login_name,login_pwd')->where($condition)->find();
-//            if ($rs) {     //对查询出的结果进行判断
-//                $password = md5(md5($user_name) . sha1($password));
-//                if ($password == $rs['login_pwd']) {//判断密码是否匹配
-//                    if ($rs['login_status'] == 10) {
-//                        $this->error('您的帐号禁止登录！');
-//                        exit;
-//                    }
-//                    $where['user_id'] = array('eq', $rs['id']);
-//                    $userInfoModel = M('UserInfo');
-//                    $data = $userInfoModel->where($where)->find();
-//                    $emailAccount = M('UserAccount')->where($where)->getField('emailaccount');
-//                    session('IS_LOGIN', 'TRUE');
-//                    session('USER_ID', $rs['id']);
-//                    session('USER_NAME', $rs['login_name']);
-//                    session('NAME', $data['name']);
-//                    session('EMAIL', $emailAccount);
-//                    $this->success('登陆成功！', '../Index/index');
-//                } else {
-//                    $this->error('您的输入密码错误！');
-//                }
-//            } else {
-//                $this->error('您的输入用户名或者密码错误！');
-//            }
-//        } else {
-//            $this->error('用户名或密码输入为空！');
-//        }
     }
 
-    /*
+    /**
      * check_verify
      * 验证验证码是否正确 验证是否过时
      * @access private
@@ -130,14 +99,13 @@ class LoginController extends Controller {
      * @author timelesszhuang
      * @todo 登录验证用户名
      */
-
     private function check_verify($code, $id = '') {
         $verify = new \Think\Verify();
         $verify->seKey = 'verify_login'; //验证码的加密密钥
         return $verify->check($code, $id);
     }
 
-    /*
+    /**
      * verify
      * 登录界面验证码实现
      * @access public
@@ -146,7 +114,6 @@ class LoginController extends Controller {
      * @author timelesszhuang
      * @todo 登录验证
      */
-
     public function verify() {
         ob_clean();
         $verify = new \Think\Verify();

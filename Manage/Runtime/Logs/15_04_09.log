@@ -1301,3 +1301,504 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000139s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000219s ]
 
+[ 2015-04-09T15:11:55+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.0178580772367547
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000217s ]
+
+[ 2015-04-09T16:36:11+08:00 ] 127.0.0.1 /voiceManage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.047400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047475s ]
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT * FROM `sm_user_rule` WHERE ( `user_id` = '1' ) LIMIT 1   [ RunTime:0.084853s ]
+SQL: SELECT `id` FROM `sm_department` WHERE ( `manageid` = '1' ) LIMIT 1   [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.391711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.391765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019941s ]
+
+[ 2015-04-09T16:36:21+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2015-04-09T16:36:22+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-04-09T16:36:22+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2015-04-09T16:36:22+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2015-04-09T16:37:47+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.5655252236015357
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2015-04-09T16:37:48+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.15642014902138468
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2015-04-09T16:37:53+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+
+[ 2015-04-09T16:41:53+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000179s ]
+
+[ 2015-04-09T16:41:53+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-04-09T16:41:57+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2015-04-09T16:41:57+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2015-04-09T16:42:02+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.2662688808533509
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2015-04-09T16:42:05+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+
+[ 2015-04-09T16:43:06+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2015-04-09T16:43:06+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000220s ]
+
+[ 2015-04-09T16:43:09+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.023277168784579527
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2015-04-09T16:43:15+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+
+[ 2015-04-09T16:43:19+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.13834054494548986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-04-09T16:43:24+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.09018198689283807
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2015-04-09T16:43:32+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+
+[ 2015-04-09T17:30:27+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000181s ]
+
+[ 2015-04-09T17:31:10+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2015-04-09T17:31:10+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2015-04-09T17:31:14+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.5810770462822942
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2015-04-09T17:31:15+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.5628382147242781
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2015-04-09T17:31:16+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.10508531852131542
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2015-04-09T17:31:20+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+
+[ 2015-04-09T17:32:30+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.613074794375649
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-04-09T17:32:31+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.20595434506781052
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2015-04-09T17:32:32+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.569866559139196
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000203s ]
+
+[ 2015-04-09T17:32:39+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+

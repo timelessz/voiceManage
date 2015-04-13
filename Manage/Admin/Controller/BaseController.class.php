@@ -1,7 +1,7 @@
 <?php
 
 /*
- * 公共类其他控制器继承该类   1判断登录状态  2
+ * 公共类其他控制器继承该类   判断登录状态  
  * @author timelesszhuang
  * @version  salesmen
  * @copyright 赵兴壮

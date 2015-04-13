@@ -11,5 +11,8 @@ $menuarray_BOSS = array(
                     array('label' => '按月统计', 'link' => __MODULE__ . '/Statistics/monthCount'),
                     array('label' => '条件统计', 'link' => __MODULE__ . '/Statistics/conditionCount'),
                 )),
+            array('label' => '数据更新', 'items' => array(
+                    array('label' => '更新数据', 'link' => __MODULE__ . '/Updatedata/index'),
+                )),
         )),
 );

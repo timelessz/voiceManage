@@ -1,0 +1,1475 @@
+[ 2015-04-13T14:38:22+08:00 ] 127.0.0.1 /voiceManage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014042s ]
+
+[ 2015-04-13T14:38:22+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002189s ]
+
+[ 2015-04-13T14:38:22+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-04-13T14:38:25+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.9528138285100333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2015-04-13T14:38:31+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+
+[ 2015-04-13T14:38:42+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.10336134972103361
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2015-04-13T14:38:55+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2015-04-13T14:38:56+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2015-04-13T14:39:00+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428907140512
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+ERR: 非法操作:index
+
+[ 2015-04-13T14:39:14+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428907154257
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+ERR: 非法操作:index
+
+[ 2015-04-13T15:00:10+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428908410620
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2015-04-13T15:00:32+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428908432279
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-04-13T15:00:57+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428908457716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2015-04-13T15:01:19+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428908479698
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2015-04-13T15:01:34+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428908494122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-04-13T15:08:34+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428908914495
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-04-13T15:09:39+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428908979497
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2015-04-13T15:09:43+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428908983156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-04-13T15:10:54+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2015-04-13T15:17:24+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428909444679
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2015-04-13T15:18:58+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428909538370
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2015-04-13T15:19:01+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428909541267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-04-13T15:19:51+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428909591221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2015-04-13T15:21:17+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428909677585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000178s ]
+
+[ 2015-04-13T15:21:22+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Updatedata/index?_=1428909682466
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2015-04-13T15:21:23+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/condition
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '10' ) LIMIT 1   [ RunTime:0.000087s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type = '10' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '10' ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '20' ) LIMIT 1   [ RunTime:0.000054s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type = '20' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '20' ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '10' ) LIMIT 1   [ RunTime:0.000051s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id =   and type = '10' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '10' ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '20' ) LIMIT 1   [ RunTime:0.000050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id =   and type = '20' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '20' ) LIMIT 1  
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '10' )  [ RunTime:0.000064s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type = '10' )' at line 1
+ [ SQL语句 ] : SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '10' ) 
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '20' )  [ RunTime:0.000109s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type = '20' )' at line 1
+ [ SQL语句 ] : SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '20' ) 
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '10' )  [ RunTime:0.000109s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id =   and type = '10' )' at line 1
+ [ SQL语句 ] : SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '10' ) 
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '20' )  [ RunTime:0.000108s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id =   and type = '20' )' at line 1
+ [ SQL语句 ] : SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '20' ) 
+
+[ 2015-04-13T15:21:31+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/condition
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '10' ) LIMIT 1   [ RunTime:0.000338s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type = '10' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '10' ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '20' ) LIMIT 1   [ RunTime:0.000150s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type = '20' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '20' ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '10' ) LIMIT 1   [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id =   and type = '10' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '10' ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '20' ) LIMIT 1   [ RunTime:0.000121s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id =   and type = '20' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '20' ) LIMIT 1  
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '10' )  [ RunTime:0.000119s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type = '10' )' at line 1
+ [ SQL语句 ] : SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '10' ) 
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '20' )  [ RunTime:0.000109s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type = '20' )' at line 1
+ [ SQL语句 ] : SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and user_id =   and type = '20' ) 
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '10' )  [ RunTime:0.000135s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id =   and type = '10' )' at line 1
+ [ SQL语句 ] : SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '10' ) 
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '20' )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id =   and type = '20' )' at line 1
+ [ SQL语句 ] : SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428854400 and time < 1428854400 and size >  and user_id =   and type = '20' ) 
+
+[ 2015-04-13T15:38:46+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Alllist/index?_=1428910725986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2015-04-13T15:38:46+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Alllist/jsonTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: condition /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/AlllistController.class.php 第 43 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT `id`,`name` FROM `sm_department`  [ RunTime:0.000211s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 5 )  [ RunTime:0.000209s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 6 )  [ RunTime:0.000153s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 7 )  [ RunTime:0.000150s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 8 )  [ RunTime:0.000156s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 9 )  [ RunTime:0.000148s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 10 )  [ RunTime:0.000172s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 11 )  [ RunTime:0.000161s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 12 )  [ RunTime:0.000138s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 13 )  [ RunTime:0.000174s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 14 )  [ RunTime:0.000134s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 0 )  [ RunTime:0.000135s ]
+
+[ 2015-04-13T15:38:46+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Alllist/jsonTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: condition /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/AlllistController.class.php 第 43 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT `id`,`name` FROM `sm_department`  [ RunTime:0.000093s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 5 )  [ RunTime:0.000077s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 6 )  [ RunTime:0.000067s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 7 )  [ RunTime:0.000064s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 8 )  [ RunTime:0.000064s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 9 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 10 )  [ RunTime:0.000062s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 11 )  [ RunTime:0.000062s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 12 )  [ RunTime:0.000062s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 13 )  [ RunTime:0.000062s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 14 )  [ RunTime:0.000058s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 0 )  [ RunTime:0.000059s ]
+
+[ 2015-04-13T15:38:50+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Filelist/index?_=1428910730223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-04-13T15:38:50+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Filelist/jsonTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+
+[ 2015-04-13T15:38:50+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Filelist/jsonTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-04-13T15:38:51+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Filelist/voicelist?id=0&_=1428910731332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-04-13T15:38:51+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Filelist/json/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT * FROM `sm_user_voice` WHERE ( user_id = 1 ) ORDER BY time desc,id LIMIT 0,10   [ RunTime:0.031696s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.000230s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/FilelistController.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-04-13T15:38:51+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Filelist/json/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT * FROM `sm_user_voice` WHERE ( user_id = 1 ) ORDER BY time desc,id LIMIT 0,10   [ RunTime:0.000108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.000100s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/FilelistController.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2015-04-13T16:00:08+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Alllist/index?_=1428912008551
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2015-04-13T16:00:08+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Alllist/jsonTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: condition /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/AlllistController.class.php 第 43 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT `id`,`name` FROM `sm_department`  [ RunTime:0.000101s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 5 )  [ RunTime:0.000113s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 6 )  [ RunTime:0.000078s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 7 )  [ RunTime:0.000067s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 8 )  [ RunTime:0.000066s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 9 )  [ RunTime:0.000073s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 10 )  [ RunTime:0.000066s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 11 )  [ RunTime:0.000065s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 12 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 13 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 14 )  [ RunTime:0.000059s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 0 )  [ RunTime:0.000060s ]
+
+[ 2015-04-13T16:00:08+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Alllist/jsonTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: condition /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/AlllistController.class.php 第 43 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT `id`,`name` FROM `sm_department`  [ RunTime:0.000089s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 5 )  [ RunTime:0.000092s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 6 )  [ RunTime:0.000072s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 7 )  [ RunTime:0.000067s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 8 )  [ RunTime:0.000072s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 9 )  [ RunTime:0.000064s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 10 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 11 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 12 )  [ RunTime:0.000062s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 13 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 14 )  [ RunTime:0.000059s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 0 )  [ RunTime:0.000058s ]
+
+[ 2015-04-13T16:00:46+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/dayCount?_=1428912046513
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: condition /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/StatisticsController.class.php 第 38 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT `id`,`name` FROM `sm_department`  [ RunTime:0.000090s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 5 )  [ RunTime:0.000122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.054497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.010801s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000409s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000187s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000203s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000158s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000152s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000146s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000372s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.014909s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000600s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000545s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000597s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000539s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000548s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000548s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000538s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000509s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 6 )  [ RunTime:0.000152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.021416s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000203s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000182s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000209s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000243s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000371s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000791s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000173s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000173s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000177s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000176s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000176s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.008528s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000308s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000205s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000189s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000151s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000151s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000156s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 7 )  [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000159s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000147s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000152s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000145s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000150s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.007781s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000182s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000172s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000178s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000175s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000175s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000196s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000189s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000219s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000243s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000214s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000229s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000192s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000173s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000171s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000156s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000150s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 8 )  [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000159s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000211s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000182s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000272s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000298s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000224s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 9 )  [ RunTime:0.000092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000152s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000144s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000153s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000157s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000176s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000247s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000213s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000215s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000209s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000218s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000196s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000276s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000228s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000194s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000216s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000226s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 10 )  [ RunTime:0.000094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000205s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000200s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000180s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000191s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000208s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000178s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000208s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000193s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000194s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000315s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000233s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 11 )  [ RunTime:0.000086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000318s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000309s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000319s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000317s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000318s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000326s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000282s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000281s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000378s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000279s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000301s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000294s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000220s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000299s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000442s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000453s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000218s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000237s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 12 )  [ RunTime:0.000149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000397s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000325s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000326s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000321s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000323s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.002738s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000284s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000330s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000357s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000356s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000363s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000315s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 13 )  [ RunTime:0.000256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000289s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000302s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000368s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000333s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000356s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000267s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000215s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000239s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000222s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000227s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000216s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 14 )  [ RunTime:0.000096s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 0 )  [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2015-04-13T16:00:48+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/conditionCount?_=1428912048388
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2015-04-13T16:00:48+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/jsonTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: condition /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/StatisticsController.class.php 第 677 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT `id`,`name` FROM `sm_department`  [ RunTime:0.000117s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 5 )  [ RunTime:0.000114s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 6 )  [ RunTime:0.000093s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 7 )  [ RunTime:0.000088s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 8 )  [ RunTime:0.000084s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 9 )  [ RunTime:0.000084s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 10 )  [ RunTime:0.000087s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 11 )  [ RunTime:0.000085s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 12 )  [ RunTime:0.000086s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 13 )  [ RunTime:0.000105s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 14 )  [ RunTime:0.000082s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 0 )  [ RunTime:0.000539s ]
+
+[ 2015-04-13T16:01:25+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/conditionCount?_=1428912085078
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-04-13T16:01:25+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/jsonTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: condition /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/StatisticsController.class.php 第 677 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT `id`,`name` FROM `sm_department`  [ RunTime:0.000090s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 5 )  [ RunTime:0.000087s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 6 )  [ RunTime:0.000070s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 7 )  [ RunTime:0.000067s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 8 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 9 )  [ RunTime:0.000064s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 10 )  [ RunTime:0.000065s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 11 )  [ RunTime:0.000064s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 12 )  [ RunTime:0.000066s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 13 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 14 )  [ RunTime:0.000059s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 0 )  [ RunTime:0.000058s ]
+
+[ 2015-04-13T16:02:34+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/dayCount?_=1428912154514
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: condition /usr/local/apache243/htdocs/voiceManage/Manage/Admin/Controller/StatisticsController.class.php 第 38 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT `id`,`name` FROM `sm_department`  [ RunTime:0.000103s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 5 )  [ RunTime:0.000079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000066s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000063s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000059s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000064s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 28 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000054s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000057s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000056s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000079s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000064s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 30 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000059s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 6 )  [ RunTime:0.000065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000059s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000062s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 22 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000057s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000057s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000059s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000057s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 35 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000548s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000064s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000062s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000070s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000061s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 38 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000060s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 7 )  [ RunTime:0.000088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000054s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000055s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000054s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 18 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000055s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000055s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000054s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000056s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000055s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000053s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 31 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000091s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000081s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000059s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000064s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000067s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000066s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 45 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000058s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000056s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000056s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000060s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000056s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000057s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 51 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000055s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 8 )  [ RunTime:0.000061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000058s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000058s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000055s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000058s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000089s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 21 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000064s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 9 )  [ RunTime:0.000065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000057s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000058s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000056s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000057s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000054s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000057s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 27 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000086s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000073s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000094s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000091s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000083s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 33 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000051s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000049s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000051s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000047s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000049s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 37 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000047s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 10 )  [ RunTime:0.000053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000099s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000075s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000053s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000049s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000047s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 32 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000049s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000047s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000049s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000047s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000048s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 52 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000046s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 11 )  [ RunTime:0.000053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000070s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000074s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000071s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000069s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 1 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000075s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000071s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000066s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000070s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 24 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000079s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000067s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 50 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000065s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 12 )  [ RunTime:0.000070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000067s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000066s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000066s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 19 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000071s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000070s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000066s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 25 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000067s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 13 )  [ RunTime:0.000073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000069s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000067s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000069s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000073s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 26 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' )  [ RunTime:0.000067s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' )  [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' and size > 30 )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' and size > 30 )  [ RunTime:0.000065s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '10' and size > 50 )  [ RunTime:0.000068s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( user_id = 34 and time > 1428854400 and time < 1428940799 and type = '20' and size > 50 )  [ RunTime:0.000063s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 14 )  [ RunTime:0.000070s ]
+SQL: SELECT `user_id`,`name` FROM `sm_user_info` WHERE ( `department_id` = 0 )  [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-04-13T16:12:45+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Statistics/condition
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/apache243/htdocs/voiceManage/Core/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428768000 and time < 1428940800 and user_id = 28  and type = '10' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428768000 and time < 1428940800 and user_id = 28  and type = '20' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428768000 and time < 1428940800 and size > 30 and user_id = 28  and type = '10' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sm_user_voice` WHERE ( time > 1428768000 and time < 1428940800 and size > 30 and user_id = 28  and type = '20' ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428768000 and time < 1428940800 and user_id = 28  and type = '10' )  [ RunTime:0.000201s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428768000 and time < 1428940800 and user_id = 28  and type = '20' )  [ RunTime:0.000167s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428768000 and time < 1428940800 and size > 30 and user_id = 28  and type = '10' )  [ RunTime:0.000172s ]
+SQL: SELECT `size` FROM `sm_user_voice` WHERE ( time > 1428768000 and time < 1428940800 and size > 30 and user_id = 28  and type = '20' )  [ RunTime:0.000168s ]
+
+[ 2015-04-13T16:14:03+08:00 ] 127.0.0.1 /voiceManage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+

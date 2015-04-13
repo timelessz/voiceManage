@@ -12,7 +12,7 @@
  * 2014年12月23 17:22
  */
 
-namespace Home\Controller;
+namespace Admin\Controller;
 
 use Think\Controller;
 
@@ -24,34 +24,43 @@ class CurlController extends Controller {
      * 向salesmen主机发送用户数据   表单填写的数据  验证用户登陆状态   返回数据
      * @param String $url  远程url路径
      * @param String $data  要验证的 数据
-     * @return Array 梦想
+     * @return Array  获取到的数据
      * 2014 12.25 11:16
      */
     public function sendcheckLoginData($url, $data) {
-        $post_data = array('checkfield' => md5('whomx'), 'login_name' => $data['login_name'], 'login_pwd' => $data['login_pwd']);
+        $post_data = array('checkfield' => md5('voicemanage'), 'login_name' => $data['login_name'], 'login_pwd' => $data['login_pwd']);
         return $this->send($url, $post_data);
     }
 
     /**
-     * sendWhmoxCustomerData
-     * @author timelesszhuang 834916321@qq.com
-     * 向salesmen主机发送客户的数据
-     * @param String $url  远程url路径
-     * @param String $data  要验证的 数据
-     * 2014 12.25 11:16
-     * @return json 返回值说明   status  00请求不正确    10 添加更新数据成功  20添加数据失败 
+     * 获取全部信息
+     * @access public
+     * @return Array 获取到的组织架构信息 
+     * 索引0表示 组织机构信息
+     * 索引1表示 用户信息
+     * 2015年4月13日
      */
-    public function sendWhomxCustomerData($url, $data) {
-        $checkdata = array('checkfield' => md5('whomx'));
-        $post_data = array_merge($checkdata, $data);
-        return $this->send($url, $post_data);
+    public function get_org_structure($url) {
+        $post_data = array('checkfield' => md5('voicemanage'));
+        return$this->send($url, $post_data);
+    }
+
+    /**
+     * 获取用户信息
+     * @access public
+     * @return array 数组:分机号码  => 用户user_id
+     * 2015年4月13日
+     */
+    public function get_user_info($url) {
+        $post_data = array('checkfield' => md5('voicemanage'));
+        return$this->send($url, $post_data);
     }
 
     /**
      * 发送CURL数据信息
      * @author timelesszhuang 834916321@qq.com
      * curl请求发送
-     *  @param String  url  发送的路径
+     * @param String  url  发送的路径
      * @param array  $post_data  发送的数据
      * 修改 ：2014 12.27 10:53
      */

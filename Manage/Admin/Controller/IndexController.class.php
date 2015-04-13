@@ -1,7 +1,6 @@
 <?php
 
 namespace Admin\Controller;
-
 use Think\Controller;
 
 /**
@@ -15,47 +14,23 @@ use Think\Controller;
  */
 class IndexController extends BaseController {
 
+    /**
+     * 跳转到首页    获取菜单信息
+     * @access public
+     */
     public function index() {
-        
-        
-        $id = session('USER_ID');
-        $condition['user_id'] = array('eq', $id);
-        $userRuleModel = M('UserRule');
-        $auData = $userRuleModel->where($condition)->find();
-        $au = unserialize($auData['rule_serarr']);
         $menu = array();
-        foreach ($au as $k => $v) {
-            switch ($v) {
-                case'BOSS':
-                    session('BOSS', 1);
-                default :
-                    break;
-            }
-        }
-        $department_id = $this->getmanageid();
         if (session('BOSS')) {
             require_once(APP_PATH . "Admin/Conf/leftmenu_BOSS.php"); //引入默认菜单 ;
             $menu = array_merge($menu, $menuarray_BOSS);
-        } else if (!empty($department_id)) {
+        } else if (session('DEPARTMENT_ID')) {
             require_once(APP_PATH . "Admin/Conf/leftmenu_DEPARTMENTMANAGE.php"); //引入默认菜单 ;
             $menu = array_merge($menu, $menuarray_DEPARTMENTMANAGE);
-            session('DEPARTMENT_ID', $department_id);
         }
         require_once(APP_PATH . "Admin/Conf/leftmenu.php"); //引入默认菜单 ;
         $menu = array_merge($menu, $menuarray);
         $this->assign('menu', $menu);
         $this->display();
-    }
-
-    /**
-     * 获取是否是管理员
-     */
-    private function getmanageid() {
-        $user_id = session('USER_ID');
-        $condition['manageid'] = array('eq', $user_id);
-        $m = M('Department');
-        $department_id = $m->where($condition)->getfield('id');
-        return $department_id;
     }
 
 }

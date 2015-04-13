@@ -3,7 +3,7 @@
 /**
  * FiletraverseController.class.php 
  * 文件遍历操作列表实现
- * @author timelesszhuang
+ * @author timelesszhuang<834916321@qq.com>
  * @version voicemanage
  * @copyright 赵兴壮
  * @package  Controller
@@ -152,6 +152,8 @@ class FiletraverseController extends BaseController {
 
     /**
      * 获取用户分机号 分机号码=>user_id
+     * 
+     * 这个地方要改成geyuserinfo
      */
     private function getuserinfo() {
         $m = M('UserAccount');
@@ -175,7 +177,7 @@ class FiletraverseController extends BaseController {
     }
 
     /**
-     * 
+     * 更新今天的录音数据
      */
     public function getTodayData() {
         $deletestatus = $this->deleteTodayData();
@@ -205,6 +207,9 @@ class FiletraverseController extends BaseController {
         $condition = 'time< ' . $stoptime . ' and time > ' . $starttime;
         //$map['time']=array('gt',$starttime);
         $status = $m->where($condition)->delete();
+        //这个地方可以把udp的文件删除掉  
+        $where['path'] = array('like', '%udp');
+        $m->where($where)->delete();
         if (!$status) {
             return true;
         }
