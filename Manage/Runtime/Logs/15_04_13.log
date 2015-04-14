@@ -1473,3 +1473,112 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
 
+[ 2015-04-13T20:14:16+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013407s ]
+
+[ 2015-04-13T20:14:16+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002868s ]
+
+[ 2015-04-13T20:14:16+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-04-13T20:14:20+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/verify.html?tm=0.9722953404159647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000227s ]
+
+[ 2015-04-13T20:14:26+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 8 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 9 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 10 行.
+NOTIC: [8] Undefined variable: style /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 11 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 52 行.
+NOTIC: [8] Undefined variable: style_common /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/c8a6b6ddd9bc41fb2eb42817028cc91e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-04-13T20:14:27+08:00 ] 127.0.0.1 /voiceManage/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: type /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+NOTIC: [8] Undefined index: rel /usr/local/apache243/htdocs/voiceManage/Manage/Runtime/Cache/Admin/cab880079829d1c2af36e2875479dd6d.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+

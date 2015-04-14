@@ -35,13 +35,19 @@ class UpdatedataController extends BaseController {
         $flag = I('post.flag');
         if ($flag == 1) {
             //表示是更新电话分机号码
-            
-            
+            $path = C('CURL_PATH');
+            $path.='VoicemanageApiGetUserinfo/get_user_info';
+            $loginParam[0] = $path;
+            $check_result = R('Admin/Curl/get_org_structure', $loginParam);
         } else if ($flag == 0) {
             //表示是更新的组织架构
-            
-            
+            $path = C('CURL_PATH');
+            $path.='VoicemanageApiGetUserinfo/get_org_structure';
+            $loginParam[0] = $path;
+            $check_result = R('Admin/Curl/get_user_info', $loginParam);
         }
+//     return json_decode($check_result);
+        print_r(json_decode($check_result));
     }
 
 }

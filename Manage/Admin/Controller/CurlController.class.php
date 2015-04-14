@@ -2,10 +2,10 @@
 
 /**
  * CurlController
- * 远程操作 获取用户信息  发送域名信息  远程发送数据   
+ * 远程操作 获取用户信息  发送域名信息  远程发送数据
  * @author 强比科技有限公司 技术部  赵兴壮<834916321@qq.com>
  * @copyright  强比科技有限公司 -技术部
- * @license 强比科技 
+ * @license 强比科技
  * @version whomx  3.0版本
  * @package  Controller
  * @todo 验证用户登录状态
