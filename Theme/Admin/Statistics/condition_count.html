@@ -1,0 +1,80 @@
+
+<style type="text/css">
+    table.gridtable {
+        font-family: verdana,arial,sans-serif;
+        font-size:11px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #666666;
+        border-collapse: collapse;
+        width: 80%;
+    }
+    table.gridtable th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+    }
+    table.gridtable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+    }
+</style>
+<div style="padding-top:50px;">
+    <div  style='width:80%;margin: 0 auto;clear: both;font-size:18px;color:#080'>
+        请选择要查询的条件：<input name="id_condition" class="easyui-combotree" style="width:200px" data-options="url:'__MODULE__/Statistics/json_condition_tree',required:true,"  style="font-size: 18px;width:200px;height: 30px"/>
+        &nbsp;&nbsp;开始时间：<input class="easyui-datebox" placeholder="开始日期" name="conditionstarttime" style="font-size: 18px;width:100px;height: 30px"  value="<?php echo date('Y-m-d',time()-86400);?>"/>
+        &nbsp;&nbsp;结束时间：<input class="easyui-datebox" placeholder="结束日期" name="conditionstoptime" style="font-size: 18px;width:100px;height: 30px" value="<?php echo date('Y-m-d',time()+86400);?>"/>
+        &nbsp;&nbsp;查询超过<input type='number' name="conditiontime" value="30" style=" font-size: 18px;width:50px;height: 30px"/>秒的录音数据
+        &nbsp;&nbsp;<input type="button" value="有效时长统计" name="submitcondition" style="width:150px;height:45px;font-size:18px;">
+        <br>
+        <br>
+    </div>
+    <div id="conditiondata">
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('input[name="submitcondition"]').click(function () {
+            var id = $('input[name="id_condition"]').val();
+            var starttime = $('input[name="conditionstarttime"]').val();
+            var stoptime = $('input[name="conditionstoptime"]').val();
+            var time = $('input[name="conditiontime"]').val();
+            if (id == "") {
+                alert("选择部门，或者职员。");
+                return false;
+            }
+            if (time == "") {
+                alert("请填写要查询的时间长度。");
+                return false;
+            }
+            $.ajax({
+                url: '__MODULE__/Statistics/exec_condition_count',
+                type: 'post',
+                data: {
+                    id: id,
+                    starttime: starttime,
+                    stoptime: stoptime,
+                    time: time,
+                },
+                dataType: 'json',
+                success: function (data) {
+                    if (data.status == 'suc') {
+                        $('#conditiondata').html(data.data);
+                    } else {
+                        alert('查询失败。');
+                    }
+                }
+            })
+        });
+    });
+
+</script>
+
+
+

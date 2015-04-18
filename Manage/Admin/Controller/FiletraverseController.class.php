@@ -152,18 +152,23 @@ class FiletraverseController extends BaseController {
 
     /**
      * 获取用户分机号 分机号码=>user_id
-     * 
      * 这个地方要改成geyuserinfo
      */
     private function getuserinfo() {
-        $m = M('UserAccount');
-        $data = $m->getField('user_id,telnum', true);
-        $info = array();
-        foreach ($data as $key => $value) {
-            $arr = explode('-', $value);
-            $info[$arr[2]] = $key;
-        }
-        return $info;
+        $map['id'] = array('eq', 1);
+        $m = M('ComData');
+        $userinfo_data = $m->where($map)->getField('serialize_data');
+        $userinfo = unserialize($userinfo_data);
+        return $userinfo;
+//        $m = M('UserAccount');
+//        $data = $m->getField('user_id,telnum', true);
+//        $info = array();
+//        foreach ($data as $key => $value) {
+//            $arr = explode('-', $value);
+//            $info[$arr[2]] = $key;
+//        }
+//        print_r($info);
+//        return $info;
     }
 
     /**

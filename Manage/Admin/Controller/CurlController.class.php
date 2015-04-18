@@ -42,7 +42,7 @@ class CurlController extends Controller {
      */
     public function get_org_structure($url) {
         $post_data = array('checkfield' => md5('voicemanage'));
-        return$this->send($url, $post_data);
+        return $this->send($url, $post_data);
     }
 
     /**
@@ -53,7 +53,7 @@ class CurlController extends Controller {
      */
     public function get_user_info($url) {
         $post_data = array('checkfield' => md5('voicemanage'));
-        return$this->send($url, $post_data);
+        return $this->send($url, $post_data);
     }
 
     /**

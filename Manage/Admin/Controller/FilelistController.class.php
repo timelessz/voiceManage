@@ -98,7 +98,6 @@ class FilelistController extends BaseController {
         $m = M('UserVoice');
         $time = I('get.id');
         if ($time == 0) {
-            //$condition['user_id'] = array('eq', $user_id);
             $condition = 'user_id = ' . $user_id;
         } else {
             $starttime = strtotime(date('Y-m-d 00:00:00', $time));

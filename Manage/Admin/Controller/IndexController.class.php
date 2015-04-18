@@ -17,6 +17,7 @@ class IndexController extends BaseController {
 
     /**
      * 跳转到首页    获取菜单信息
+     * 因为使用人数限制所以不必要使用函数的方式来判断用户
      * @access public
      */
     public function index() {

@@ -67,8 +67,8 @@ class LoginController extends Controller {
                 if ($data['is_boss'] == '10') {
                     session('BOSS', 1);
                 } else {
-                    if (!$data['department_id']) {
-                        session('DEPARTMENT_ID', $department_id);
+                    if ($data['department_id']) {
+                        session('DEPARTMENT_ID', $data['department_id']);
                     }
                 }
                 $this->success('登陆成功！', '../Index/index');
